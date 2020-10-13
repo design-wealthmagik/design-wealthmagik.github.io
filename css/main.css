@@ -7124,16 +7124,16 @@ h4 {
   font-weight: 400;
 }
 a {
-  color: #424242;
+  color: #2B3549;
 }
 a:hover,
 a:focus {
-  color: #424242;
+  color: #2B3549;
   text-decoration: none;
 }
 /*---Navigation---*/
 .navbar {
-  background: #039BE5;
+  background: #2B3549;
   border-bottom: 0px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
@@ -7197,7 +7197,7 @@ a:focus {
 }
 .menubar .nav-pills li.active a {
   background: none;
-  color: #039BE5;
+  color: #2B3549;
   font-weight: 500;
 }
 .content {
@@ -7268,7 +7268,7 @@ a:focus {
   }
   .content .container .lift .nav-pills li a {
     padding: 5px 15px;
-    color: #424242;
+    color: #2B3549;
     border-radius: 0px;
     border-left: 2px #E0E0E0 solid;
     font-size: 14px;
@@ -7277,7 +7277,7 @@ a:focus {
   .content .container .lift .nav-pills li.active a {
     background: transparent;
     border-left: 4px solid red;
-    color: #424242;
+    color: #2B3549;
     font-weight: 500;
   }
 }
