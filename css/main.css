@@ -7133,9 +7133,9 @@ a:focus {
 }
 /*---Navigation---*/
 .navbar {
-  background: #424242;
+  background: #039BE5;
   border-bottom: 0px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
 }
 .navbar .navbar-brand {
@@ -7197,7 +7197,7 @@ a:focus {
 }
 .menubar .nav-pills li.active a {
   background: none;
-  color: #424242;
+  color: #039BE5;
   font-weight: 500;
 }
 .content {
