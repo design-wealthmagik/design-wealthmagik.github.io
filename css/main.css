@@ -7163,6 +7163,7 @@ a:focus {
 }
 .navbar .navbar-nav li a:hover,
 .navbar .navbar-nav li a:focus {
+  color: #B3E5FC;
   background: none;
 }
 .navbar .navbar-nav li.active a {
@@ -7333,12 +7334,25 @@ a:focus {
   padding: 50px 0px 50px 0px;
   border-bottom: 1px solid #E0E0E0;
 }
+.article .article-section a {
+  color: #03A9F4;
+}
+.article .article-section a:hover {
+  text-decoration: underline;
+}
+.article .article-section li {
+  margin-bottom: 10px;
+}
 .article .gallery .gallery-item {
   margin-top: 30px;
   border: 1px solid #E0E0E0;
 }
 .article .gallery .gallery-item h3 {
+  color: #2B3549;
   margin: 15px;
+}
+.article .gallery .gallery-item a:hover {
+  text-decoration: none;
 }
 .article .gallery .gallery-item:hover {
   box-shadow: 0px 4px 8px 0px rgba(58, 61, 68, 0.13);
