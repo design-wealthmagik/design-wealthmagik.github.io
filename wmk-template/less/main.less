@@ -22,37 +22,74 @@ To compile:
   padding: 100px 0px;
 }
 
-body{
-  font-family: @font-wmk-primary;
-  font-size: 16px;
-}
-h1{
-  font-family: 'ThaiSansNeue';
-  font-size: 36px;
+
+
+/* Navigation */
+
+.navbar {
+  background: @color-wmk-white;
+  border-bottom: 0px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  height: 70px;
 }
 
-h2{
-  font-family: 'ThaiSansNeue';
-  font-size: 30px;
+.banner{
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 
-h3{
-  font-family: @font-wmk-primary;
-  font-size: 24px;
+.banner-template{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+
 }
 
-h4{
-  font-family: @font-wmk-primary;
-  font-size: 18px;
+.demo{
+  padding-top: 10px;
 }
-small{
-  font-family: @font-wmk-primary;
-  font-size: 14px;
+
+.template-section{
+  padding-bottom: 50px;
 }
+
 
 /*---WMK Style---*/
 
 .style-wmk{
+  body{
+    font-family: @font-wmk-primary;
+    font-size: 16px;
+  }
+  h1{
+    font-family: 'ThaiSansNeue';
+    font-size: 36px;
+  }
+
+  h2{
+    font-family: 'ThaiSansNeue';
+    font-size: 30px;
+  }
+
+  h3{
+    font-family: @font-wmk-primary;
+    font-size: 24px;
+  }
+
+  h4{
+    font-family: @font-wmk-primary;
+    font-size: 18px;
+  }
+  small{
+    font-family: @font-wmk-primary;
+    font-size: 14px;
+  }
+
+
   .btn{
     border-radius: 4px;
     font-size: 16px;
@@ -87,16 +124,35 @@ small{
     .button-variant(@color-wmk-theme-primary, @color-wmk-white, @color-wmk-grey-1);
     /* Font,Background,Border */
   }
-  .btn-tertiary {
+
+
+
+  .btn-secondary-black {
     &:extend(.btn all);
     .button-variant(@color-wmk-black, @color-wmk-white, @color-wmk-grey-1);
     /* Font,Background,Border */
   }
+  .btn-tertiary {
+    &:extend(.btn all);
+    .button-variant(@color-wmk-theme-primary, @color-wmk-white, @color-wmk-grey-1);
+    /* Font,Background,Border */
+  }
+
+  .btn-disable {
+    &:extend(.btn all);
+    .button-variant(@color-wmk-grey-3, @color-wmk-grey-1, @color-wmk-grey-1);
+    /* Font,Background,Border */
+  }
+
   .btn-ghost {
     &:extend(.btn all);
     background: none;
     border: 0px;
     /* Font,Background,Border */
   }
+
+
+
+
 
 }

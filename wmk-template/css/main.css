@@ -249,8 +249,12 @@ th {
   .dropup > .style-wmk .btn-primary-raised > .caret,
   .style-wmk .btn-secondary > .caret,
   .dropup > .style-wmk .btn-secondary > .caret,
+  .style-wmk .btn-secondary-black > .caret,
+  .dropup > .style-wmk .btn-secondary-black > .caret,
   .style-wmk .btn-tertiary > .caret,
   .dropup > .style-wmk .btn-tertiary > .caret,
+  .style-wmk .btn-disable > .caret,
+  .dropup > .style-wmk .btn-disable > .caret,
   .style-wmk .btn-ghost > .caret,
   .dropup > .style-wmk .btn-ghost > .caret {
     border-top-color: #000 !important;
@@ -3100,7 +3104,9 @@ select[multiple].input-lg {
 .style-wmk .btn-primary,
 .style-wmk .btn-primary-raised,
 .style-wmk .btn-secondary,
+.style-wmk .btn-secondary-black,
 .style-wmk .btn-tertiary,
+.style-wmk .btn-disable,
 .style-wmk .btn-ghost {
   display: inline-block;
   margin-bottom: 0;
@@ -3145,12 +3151,24 @@ select[multiple].input-lg {
 .style-wmk .btn-secondary.focus,
 .style-wmk .btn-secondary:active.focus,
 .style-wmk .btn-secondary.active.focus,
+.style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black:active:focus,
+.style-wmk .btn-secondary-black.active:focus,
+.style-wmk .btn-secondary-black.focus,
+.style-wmk .btn-secondary-black:active.focus,
+.style-wmk .btn-secondary-black.active.focus,
 .style-wmk .btn-tertiary:focus,
 .style-wmk .btn-tertiary:active:focus,
 .style-wmk .btn-tertiary.active:focus,
 .style-wmk .btn-tertiary.focus,
 .style-wmk .btn-tertiary:active.focus,
 .style-wmk .btn-tertiary.active.focus,
+.style-wmk .btn-disable:focus,
+.style-wmk .btn-disable:active:focus,
+.style-wmk .btn-disable.active:focus,
+.style-wmk .btn-disable.focus,
+.style-wmk .btn-disable:active.focus,
+.style-wmk .btn-disable.active.focus,
 .style-wmk .btn-ghost:focus,
 .style-wmk .btn-ghost:active:focus,
 .style-wmk .btn-ghost.active:focus,
@@ -3172,9 +3190,15 @@ select[multiple].input-lg {
 .style-wmk .btn-secondary:hover,
 .style-wmk .btn-secondary:focus,
 .style-wmk .btn-secondary.focus,
+.style-wmk .btn-secondary-black:hover,
+.style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black.focus,
 .style-wmk .btn-tertiary:hover,
 .style-wmk .btn-tertiary:focus,
 .style-wmk .btn-tertiary.focus,
+.style-wmk .btn-disable:hover,
+.style-wmk .btn-disable:focus,
+.style-wmk .btn-disable.focus,
 .style-wmk .btn-ghost:hover,
 .style-wmk .btn-ghost:focus,
 .style-wmk .btn-ghost.focus {
@@ -3189,8 +3213,12 @@ select[multiple].input-lg {
 .style-wmk .btn-primary-raised.active,
 .style-wmk .btn-secondary:active,
 .style-wmk .btn-secondary.active,
+.style-wmk .btn-secondary-black:active,
+.style-wmk .btn-secondary-black.active,
 .style-wmk .btn-tertiary:active,
 .style-wmk .btn-tertiary.active,
+.style-wmk .btn-disable:active,
+.style-wmk .btn-disable.active,
 .style-wmk .btn-ghost:active,
 .style-wmk .btn-ghost.active {
   outline: 0;
@@ -3210,9 +3238,15 @@ fieldset[disabled] .style-wmk .btn-primary-raised,
 .style-wmk .btn-secondary.disabled,
 .style-wmk .btn-secondary[disabled],
 fieldset[disabled] .style-wmk .btn-secondary,
+.style-wmk .btn-secondary-black.disabled,
+.style-wmk .btn-secondary-black[disabled],
+fieldset[disabled] .style-wmk .btn-secondary-black,
 .style-wmk .btn-tertiary.disabled,
 .style-wmk .btn-tertiary[disabled],
 fieldset[disabled] .style-wmk .btn-tertiary,
+.style-wmk .btn-disable.disabled,
+.style-wmk .btn-disable[disabled],
+fieldset[disabled] .style-wmk .btn-disable,
 .style-wmk .btn-ghost.disabled,
 .style-wmk .btn-ghost[disabled],
 fieldset[disabled] .style-wmk .btn-ghost {
@@ -3230,8 +3264,12 @@ a.style-wmk .btn-primary-raised.disabled,
 fieldset[disabled] a.style-wmk .btn-primary-raised,
 a.style-wmk .btn-secondary.disabled,
 fieldset[disabled] a.style-wmk .btn-secondary,
+a.style-wmk .btn-secondary-black.disabled,
+fieldset[disabled] a.style-wmk .btn-secondary-black,
 a.style-wmk .btn-tertiary.disabled,
 fieldset[disabled] a.style-wmk .btn-tertiary,
+a.style-wmk .btn-disable.disabled,
+fieldset[disabled] a.style-wmk .btn-disable,
 a.style-wmk .btn-ghost.disabled,
 fieldset[disabled] a.style-wmk .btn-ghost {
   pointer-events: none;
@@ -3862,7 +3900,9 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-lg > .style-wmk .btn-primary,
 .btn-group-lg > .style-wmk .btn-primary-raised,
 .btn-group-lg > .style-wmk .btn-secondary,
+.btn-group-lg > .style-wmk .btn-secondary-black,
 .btn-group-lg > .style-wmk .btn-tertiary,
+.btn-group-lg > .style-wmk .btn-disable,
 .btn-group-lg > .style-wmk .btn-ghost {
   padding: 10px 16px;
   font-size: 18px;
@@ -3874,7 +3914,9 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-sm > .style-wmk .btn-primary,
 .btn-group-sm > .style-wmk .btn-primary-raised,
 .btn-group-sm > .style-wmk .btn-secondary,
+.btn-group-sm > .style-wmk .btn-secondary-black,
 .btn-group-sm > .style-wmk .btn-tertiary,
+.btn-group-sm > .style-wmk .btn-disable,
 .btn-group-sm > .style-wmk .btn-ghost {
   padding: 5px 10px;
   font-size: 12px;
@@ -3886,7 +3928,9 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-xs > .style-wmk .btn-primary,
 .btn-group-xs > .style-wmk .btn-primary-raised,
 .btn-group-xs > .style-wmk .btn-secondary,
+.btn-group-xs > .style-wmk .btn-secondary-black,
 .btn-group-xs > .style-wmk .btn-tertiary,
+.btn-group-xs > .style-wmk .btn-disable,
 .btn-group-xs > .style-wmk .btn-ghost {
   padding: 1px 5px;
   font-size: 12px;
@@ -4093,8 +4137,12 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-primary-raised,
 .btn-group > .style-wmk .btn-secondary,
 .btn-group-vertical > .style-wmk .btn-secondary,
+.btn-group > .style-wmk .btn-secondary-black,
+.btn-group-vertical > .style-wmk .btn-secondary-black,
 .btn-group > .style-wmk .btn-tertiary,
 .btn-group-vertical > .style-wmk .btn-tertiary,
+.btn-group > .style-wmk .btn-disable,
+.btn-group-vertical > .style-wmk .btn-disable,
 .btn-group > .style-wmk .btn-ghost,
 .btn-group-vertical > .style-wmk .btn-ghost {
   position: relative;
@@ -4132,6 +4180,14 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-secondary:active,
 .btn-group > .style-wmk .btn-secondary.active,
 .btn-group-vertical > .style-wmk .btn-secondary.active,
+.btn-group > .style-wmk .btn-secondary-black:hover,
+.btn-group-vertical > .style-wmk .btn-secondary-black:hover,
+.btn-group > .style-wmk .btn-secondary-black:focus,
+.btn-group-vertical > .style-wmk .btn-secondary-black:focus,
+.btn-group > .style-wmk .btn-secondary-black:active,
+.btn-group-vertical > .style-wmk .btn-secondary-black:active,
+.btn-group > .style-wmk .btn-secondary-black.active,
+.btn-group-vertical > .style-wmk .btn-secondary-black.active,
 .btn-group > .style-wmk .btn-tertiary:hover,
 .btn-group-vertical > .style-wmk .btn-tertiary:hover,
 .btn-group > .style-wmk .btn-tertiary:focus,
@@ -4140,6 +4196,14 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-tertiary:active,
 .btn-group > .style-wmk .btn-tertiary.active,
 .btn-group-vertical > .style-wmk .btn-tertiary.active,
+.btn-group > .style-wmk .btn-disable:hover,
+.btn-group-vertical > .style-wmk .btn-disable:hover,
+.btn-group > .style-wmk .btn-disable:focus,
+.btn-group-vertical > .style-wmk .btn-disable:focus,
+.btn-group > .style-wmk .btn-disable:active,
+.btn-group-vertical > .style-wmk .btn-disable:active,
+.btn-group > .style-wmk .btn-disable.active,
+.btn-group-vertical > .style-wmk .btn-disable.active,
 .btn-group > .style-wmk .btn-ghost:hover,
 .btn-group-vertical > .style-wmk .btn-ghost:hover,
 .btn-group > .style-wmk .btn-ghost:focus,
@@ -4163,9 +4227,15 @@ tbody.collapse.in {
 .btn-group .style-wmk .btn-secondary + .style-wmk .btn-secondary,
 .btn-group .style-wmk .btn-secondary + .btn-group,
 .btn-group .btn-group + .style-wmk .btn-secondary,
+.btn-group .style-wmk .btn-secondary-black + .style-wmk .btn-secondary-black,
+.btn-group .style-wmk .btn-secondary-black + .btn-group,
+.btn-group .btn-group + .style-wmk .btn-secondary-black,
 .btn-group .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
 .btn-group .style-wmk .btn-tertiary + .btn-group,
 .btn-group .btn-group + .style-wmk .btn-tertiary,
+.btn-group .style-wmk .btn-disable + .style-wmk .btn-disable,
+.btn-group .style-wmk .btn-disable + .btn-group,
+.btn-group .btn-group + .style-wmk .btn-disable,
 .btn-group .style-wmk .btn-ghost + .style-wmk .btn-ghost,
 .btn-group .style-wmk .btn-ghost + .btn-group,
 .btn-group .btn-group + .style-wmk .btn-ghost {
@@ -4180,7 +4250,9 @@ tbody.collapse.in {
 .btn-toolbar .style-wmk .btn-primary,
 .btn-toolbar .style-wmk .btn-primary-raised,
 .btn-toolbar .style-wmk .btn-secondary,
+.btn-toolbar .style-wmk .btn-secondary-black,
 .btn-toolbar .style-wmk .btn-tertiary,
+.btn-toolbar .style-wmk .btn-disable,
 .btn-toolbar .style-wmk .btn-ghost {
   float: left;
 }
@@ -4190,7 +4262,9 @@ tbody.collapse.in {
 .btn-toolbar > .style-wmk .btn-primary,
 .btn-toolbar > .style-wmk .btn-primary-raised,
 .btn-toolbar > .style-wmk .btn-secondary,
+.btn-toolbar > .style-wmk .btn-secondary-black,
 .btn-toolbar > .style-wmk .btn-tertiary,
+.btn-toolbar > .style-wmk .btn-disable,
 .btn-toolbar > .style-wmk .btn-ghost {
   margin-left: 5px;
 }
@@ -4198,7 +4272,9 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-primary:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-primary-raised:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-secondary:not(:first-child):not(:last-child):not(.dropdown-toggle),
+.btn-group > .style-wmk .btn-secondary-black:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-tertiary:not(:first-child):not(:last-child):not(.dropdown-toggle),
+.btn-group > .style-wmk .btn-disable:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-ghost:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
@@ -4206,7 +4282,9 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-primary:first-child,
 .btn-group > .style-wmk .btn-primary-raised:first-child,
 .btn-group > .style-wmk .btn-secondary:first-child,
+.btn-group > .style-wmk .btn-secondary-black:first-child,
 .btn-group > .style-wmk .btn-tertiary:first-child,
+.btn-group > .style-wmk .btn-disable:first-child,
 .btn-group > .style-wmk .btn-ghost:first-child {
   margin-left: 0;
 }
@@ -4214,7 +4292,9 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-primary:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-primary-raised:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-secondary:first-child:not(:last-child):not(.dropdown-toggle),
+.btn-group > .style-wmk .btn-secondary-black:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-tertiary:first-child:not(:last-child):not(.dropdown-toggle),
+.btn-group > .style-wmk .btn-disable:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-ghost:first-child:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
@@ -4224,7 +4304,9 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-primary:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-primary-raised:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-secondary:last-child:not(:first-child),
+.btn-group > .style-wmk .btn-secondary-black:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-tertiary:last-child:not(:first-child),
+.btn-group > .style-wmk .btn-disable:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-ghost:last-child:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -4236,7 +4318,9 @@ tbody.collapse.in {
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-primary,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-primary-raised,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-secondary,
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-secondary-black,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-tertiary,
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-disable,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-ghost {
   border-radius: 0;
 }
@@ -4245,7 +4329,9 @@ tbody.collapse.in {
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-primary:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-primary-raised:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-secondary:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-secondary-black:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-tertiary:last-child,
+.btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-disable:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-ghost:last-child {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
@@ -4254,7 +4340,9 @@ tbody.collapse.in {
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-primary:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-primary-raised:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-secondary:first-child,
+.btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-secondary-black:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-tertiary:first-child,
+.btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-disable:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-ghost:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -4267,7 +4355,9 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-primary + .dropdown-toggle,
 .btn-group > .style-wmk .btn-primary-raised + .dropdown-toggle,
 .btn-group > .style-wmk .btn-secondary + .dropdown-toggle,
+.btn-group > .style-wmk .btn-secondary-black + .dropdown-toggle,
 .btn-group > .style-wmk .btn-tertiary + .dropdown-toggle,
+.btn-group > .style-wmk .btn-disable + .dropdown-toggle,
 .btn-group > .style-wmk .btn-ghost + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
@@ -4288,7 +4378,9 @@ tbody.collapse.in {
 .style-wmk .btn-primary .caret,
 .style-wmk .btn-primary-raised .caret,
 .style-wmk .btn-secondary .caret,
+.style-wmk .btn-secondary-black .caret,
 .style-wmk .btn-tertiary .caret,
+.style-wmk .btn-disable .caret,
 .style-wmk .btn-ghost .caret {
   margin-left: 0;
 }
@@ -4308,8 +4400,12 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group > .style-wmk .btn-primary-raised,
 .btn-group-vertical > .style-wmk .btn-secondary,
 .btn-group-vertical > .btn-group > .style-wmk .btn-secondary,
+.btn-group-vertical > .style-wmk .btn-secondary-black,
+.btn-group-vertical > .btn-group > .style-wmk .btn-secondary-black,
 .btn-group-vertical > .style-wmk .btn-tertiary,
 .btn-group-vertical > .btn-group > .style-wmk .btn-tertiary,
+.btn-group-vertical > .style-wmk .btn-disable,
+.btn-group-vertical > .btn-group > .style-wmk .btn-disable,
 .btn-group-vertical > .style-wmk .btn-ghost,
 .btn-group-vertical > .btn-group > .style-wmk .btn-ghost {
   display: block;
@@ -4321,7 +4417,9 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group > .style-wmk .btn-primary,
 .btn-group-vertical > .btn-group > .style-wmk .btn-primary-raised,
 .btn-group-vertical > .btn-group > .style-wmk .btn-secondary,
+.btn-group-vertical > .btn-group > .style-wmk .btn-secondary-black,
 .btn-group-vertical > .btn-group > .style-wmk .btn-tertiary,
+.btn-group-vertical > .btn-group > .style-wmk .btn-disable,
 .btn-group-vertical > .btn-group > .style-wmk .btn-ghost {
   float: none;
 }
@@ -4338,9 +4436,15 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-secondary + .style-wmk .btn-secondary,
 .btn-group-vertical > .style-wmk .btn-secondary + .btn-group,
 .btn-group-vertical > .btn-group + .style-wmk .btn-secondary,
+.btn-group-vertical > .style-wmk .btn-secondary-black + .style-wmk .btn-secondary-black,
+.btn-group-vertical > .style-wmk .btn-secondary-black + .btn-group,
+.btn-group-vertical > .btn-group + .style-wmk .btn-secondary-black,
 .btn-group-vertical > .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
 .btn-group-vertical > .style-wmk .btn-tertiary + .btn-group,
 .btn-group-vertical > .btn-group + .style-wmk .btn-tertiary,
+.btn-group-vertical > .style-wmk .btn-disable + .style-wmk .btn-disable,
+.btn-group-vertical > .style-wmk .btn-disable + .btn-group,
+.btn-group-vertical > .btn-group + .style-wmk .btn-disable,
 .btn-group-vertical > .style-wmk .btn-ghost + .style-wmk .btn-ghost,
 .btn-group-vertical > .style-wmk .btn-ghost + .btn-group,
 .btn-group-vertical > .btn-group + .style-wmk .btn-ghost {
@@ -4351,7 +4455,9 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-primary:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-primary-raised:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-secondary:not(:first-child):not(:last-child),
+.btn-group-vertical > .style-wmk .btn-secondary-black:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-tertiary:not(:first-child):not(:last-child),
+.btn-group-vertical > .style-wmk .btn-disable:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-ghost:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
@@ -4359,7 +4465,9 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-primary:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-primary-raised:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-secondary:first-child:not(:last-child),
+.btn-group-vertical > .style-wmk .btn-secondary-black:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-tertiary:first-child:not(:last-child),
+.btn-group-vertical > .style-wmk .btn-disable:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-ghost:first-child:not(:last-child) {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -4370,7 +4478,9 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-primary:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-primary-raised:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-secondary:last-child:not(:first-child),
+.btn-group-vertical > .style-wmk .btn-secondary-black:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-tertiary:last-child:not(:first-child),
+.btn-group-vertical > .style-wmk .btn-disable:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-ghost:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -4381,7 +4491,9 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-primary,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-primary-raised,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-secondary,
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-secondary-black,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-tertiary,
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-disable,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-ghost {
   border-radius: 0;
 }
@@ -4390,7 +4502,9 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-primary:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-primary-raised:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-secondary:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-secondary-black:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-tertiary:last-child,
+.btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-disable:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-ghost:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -4399,7 +4513,9 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-primary:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-primary-raised:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-secondary:first-child,
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-secondary-black:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-tertiary:first-child,
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-disable:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-ghost:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -4415,7 +4531,9 @@ tbody.collapse.in {
 .btn-group-justified > .style-wmk .btn-primary,
 .btn-group-justified > .style-wmk .btn-primary-raised,
 .btn-group-justified > .style-wmk .btn-secondary,
+.btn-group-justified > .style-wmk .btn-secondary-black,
 .btn-group-justified > .style-wmk .btn-tertiary,
+.btn-group-justified > .style-wmk .btn-disable,
 .btn-group-justified > .style-wmk .btn-ghost {
   float: none;
   display: table-cell;
@@ -4425,7 +4543,9 @@ tbody.collapse.in {
 .btn-group-justified > .btn-group .style-wmk .btn-primary,
 .btn-group-justified > .btn-group .style-wmk .btn-primary-raised,
 .btn-group-justified > .btn-group .style-wmk .btn-secondary,
+.btn-group-justified > .btn-group .style-wmk .btn-secondary-black,
 .btn-group-justified > .btn-group .style-wmk .btn-tertiary,
+.btn-group-justified > .btn-group .style-wmk .btn-disable,
 .btn-group-justified > .btn-group .style-wmk .btn-ghost {
   width: 100%;
 }
@@ -4448,10 +4568,18 @@ tbody.collapse.in {
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-secondary input[type="radio"],
 [data-toggle="buttons"] > .style-wmk .btn-secondary input[type="checkbox"],
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-secondary input[type="checkbox"],
+[data-toggle="buttons"] > .style-wmk .btn-secondary-black input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .style-wmk .btn-secondary-black input[type="radio"],
+[data-toggle="buttons"] > .style-wmk .btn-secondary-black input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .style-wmk .btn-secondary-black input[type="checkbox"],
 [data-toggle="buttons"] > .style-wmk .btn-tertiary input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-tertiary input[type="radio"],
 [data-toggle="buttons"] > .style-wmk .btn-tertiary input[type="checkbox"],
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-tertiary input[type="checkbox"],
+[data-toggle="buttons"] > .style-wmk .btn-disable input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .style-wmk .btn-disable input[type="radio"],
+[data-toggle="buttons"] > .style-wmk .btn-disable input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .style-wmk .btn-disable input[type="checkbox"],
 [data-toggle="buttons"] > .style-wmk .btn-ghost input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-ghost input[type="radio"],
 [data-toggle="buttons"] > .style-wmk .btn-ghost input[type="checkbox"],
@@ -4486,7 +4614,9 @@ tbody.collapse.in {
 .input-group-lg > .input-group-btn > .style-wmk .btn-primary,
 .input-group-lg > .input-group-btn > .style-wmk .btn-primary-raised,
 .input-group-lg > .input-group-btn > .style-wmk .btn-secondary,
+.input-group-lg > .input-group-btn > .style-wmk .btn-secondary-black,
 .input-group-lg > .input-group-btn > .style-wmk .btn-tertiary,
+.input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 .input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
   height: 46px;
   padding: 10px 16px;
@@ -4500,7 +4630,9 @@ select.input-group-lg > .input-group-btn > .btn,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-primary,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-primary-raised,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-secondary,
+select.input-group-lg > .input-group-btn > .style-wmk .btn-secondary-black,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-tertiary,
+select.input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
   height: 46px;
   line-height: 46px;
@@ -4517,8 +4649,12 @@ textarea.input-group-lg > .input-group-btn > .style-wmk .btn-primary-raised,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-primary-raised,
 textarea.input-group-lg > .input-group-btn > .style-wmk .btn-secondary,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-secondary,
+textarea.input-group-lg > .input-group-btn > .style-wmk .btn-secondary-black,
+select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-secondary-black,
 textarea.input-group-lg > .input-group-btn > .style-wmk .btn-tertiary,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-tertiary,
+textarea.input-group-lg > .input-group-btn > .style-wmk .btn-disable,
+select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 textarea.input-group-lg > .input-group-btn > .style-wmk .btn-ghost,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
   height: auto;
@@ -4529,7 +4665,9 @@ select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-sm > .input-group-btn > .style-wmk .btn-primary,
 .input-group-sm > .input-group-btn > .style-wmk .btn-primary-raised,
 .input-group-sm > .input-group-btn > .style-wmk .btn-secondary,
+.input-group-sm > .input-group-btn > .style-wmk .btn-secondary-black,
 .input-group-sm > .input-group-btn > .style-wmk .btn-tertiary,
+.input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 .input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
   height: 30px;
   padding: 5px 10px;
@@ -4543,7 +4681,9 @@ select.input-group-sm > .input-group-btn > .btn,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-primary,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-primary-raised,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-secondary,
+select.input-group-sm > .input-group-btn > .style-wmk .btn-secondary-black,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-tertiary,
+select.input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
   height: 30px;
   line-height: 30px;
@@ -4560,8 +4700,12 @@ textarea.input-group-sm > .input-group-btn > .style-wmk .btn-primary-raised,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-primary-raised,
 textarea.input-group-sm > .input-group-btn > .style-wmk .btn-secondary,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-secondary,
+textarea.input-group-sm > .input-group-btn > .style-wmk .btn-secondary-black,
+select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-secondary-black,
 textarea.input-group-sm > .input-group-btn > .style-wmk .btn-tertiary,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-tertiary,
+textarea.input-group-sm > .input-group-btn > .style-wmk .btn-disable,
+select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 textarea.input-group-sm > .input-group-btn > .style-wmk .btn-ghost,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
   height: auto;
@@ -4626,10 +4770,18 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:first-child > .btn-group > .style-wmk .btn-secondary,
 .input-group-btn:last-child > .style-wmk .btn-secondary:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-secondary,
+.input-group-btn:first-child > .style-wmk .btn-secondary-black,
+.input-group-btn:first-child > .btn-group > .style-wmk .btn-secondary-black,
+.input-group-btn:last-child > .style-wmk .btn-secondary-black:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-secondary-black,
 .input-group-btn:first-child > .style-wmk .btn-tertiary,
 .input-group-btn:first-child > .btn-group > .style-wmk .btn-tertiary,
 .input-group-btn:last-child > .style-wmk .btn-tertiary:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-tertiary,
+.input-group-btn:first-child > .style-wmk .btn-disable,
+.input-group-btn:first-child > .btn-group > .style-wmk .btn-disable,
+.input-group-btn:last-child > .style-wmk .btn-disable:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-disable,
 .input-group-btn:first-child > .style-wmk .btn-ghost,
 .input-group-btn:first-child > .btn-group > .style-wmk .btn-ghost,
 .input-group-btn:last-child > .style-wmk .btn-ghost:not(:last-child):not(.dropdown-toggle),
@@ -4659,10 +4811,18 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:last-child > .btn-group > .style-wmk .btn-secondary,
 .input-group-btn:first-child > .style-wmk .btn-secondary:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-secondary,
+.input-group-btn:last-child > .style-wmk .btn-secondary-black,
+.input-group-btn:last-child > .btn-group > .style-wmk .btn-secondary-black,
+.input-group-btn:first-child > .style-wmk .btn-secondary-black:not(:first-child),
+.input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-secondary-black,
 .input-group-btn:last-child > .style-wmk .btn-tertiary,
 .input-group-btn:last-child > .btn-group > .style-wmk .btn-tertiary,
 .input-group-btn:first-child > .style-wmk .btn-tertiary:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-tertiary,
+.input-group-btn:last-child > .style-wmk .btn-disable,
+.input-group-btn:last-child > .btn-group > .style-wmk .btn-disable,
+.input-group-btn:first-child > .style-wmk .btn-disable:not(:first-child),
+.input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-disable,
 .input-group-btn:last-child > .style-wmk .btn-ghost,
 .input-group-btn:last-child > .btn-group > .style-wmk .btn-ghost,
 .input-group-btn:first-child > .style-wmk .btn-ghost:not(:first-child),
@@ -4682,7 +4842,9 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn > .style-wmk .btn-primary,
 .input-group-btn > .style-wmk .btn-primary-raised,
 .input-group-btn > .style-wmk .btn-secondary,
+.input-group-btn > .style-wmk .btn-secondary-black,
 .input-group-btn > .style-wmk .btn-tertiary,
+.input-group-btn > .style-wmk .btn-disable,
 .input-group-btn > .style-wmk .btn-ghost {
   position: relative;
 }
@@ -4690,7 +4852,9 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn > .style-wmk .btn-primary + .style-wmk .btn-primary,
 .input-group-btn > .style-wmk .btn-primary-raised + .style-wmk .btn-primary-raised,
 .input-group-btn > .style-wmk .btn-secondary + .style-wmk .btn-secondary,
+.input-group-btn > .style-wmk .btn-secondary-black + .style-wmk .btn-secondary-black,
 .input-group-btn > .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
+.input-group-btn > .style-wmk .btn-disable + .style-wmk .btn-disable,
 .input-group-btn > .style-wmk .btn-ghost + .style-wmk .btn-ghost {
   margin-left: -1px;
 }
@@ -4706,9 +4870,15 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn > .style-wmk .btn-secondary:hover,
 .input-group-btn > .style-wmk .btn-secondary:focus,
 .input-group-btn > .style-wmk .btn-secondary:active,
+.input-group-btn > .style-wmk .btn-secondary-black:hover,
+.input-group-btn > .style-wmk .btn-secondary-black:focus,
+.input-group-btn > .style-wmk .btn-secondary-black:active,
 .input-group-btn > .style-wmk .btn-tertiary:hover,
 .input-group-btn > .style-wmk .btn-tertiary:focus,
 .input-group-btn > .style-wmk .btn-tertiary:active,
+.input-group-btn > .style-wmk .btn-disable:hover,
+.input-group-btn > .style-wmk .btn-disable:focus,
+.input-group-btn > .style-wmk .btn-disable:active,
 .input-group-btn > .style-wmk .btn-ghost:hover,
 .input-group-btn > .style-wmk .btn-ghost:focus,
 .input-group-btn > .style-wmk .btn-ghost:active {
@@ -4719,7 +4889,9 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:first-child > .style-wmk .btn-primary,
 .input-group-btn:first-child > .style-wmk .btn-primary-raised,
 .input-group-btn:first-child > .style-wmk .btn-secondary,
+.input-group-btn:first-child > .style-wmk .btn-secondary-black,
 .input-group-btn:first-child > .style-wmk .btn-tertiary,
+.input-group-btn:first-child > .style-wmk .btn-disable,
 .input-group-btn:first-child > .style-wmk .btn-ghost {
   margin-right: -1px;
 }
@@ -4728,7 +4900,9 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:last-child > .style-wmk .btn-primary,
 .input-group-btn:last-child > .style-wmk .btn-primary-raised,
 .input-group-btn:last-child > .style-wmk .btn-secondary,
+.input-group-btn:last-child > .style-wmk .btn-secondary-black,
 .input-group-btn:last-child > .style-wmk .btn-tertiary,
+.input-group-btn:last-child > .style-wmk .btn-disable,
 .input-group-btn:last-child > .style-wmk .btn-ghost {
   z-index: 2;
   margin-left: -1px;
@@ -5626,7 +5800,9 @@ a.label:focus {
 .style-wmk .btn-primary .label,
 .style-wmk .btn-primary-raised .label,
 .style-wmk .btn-secondary .label,
+.style-wmk .btn-secondary-black .label,
 .style-wmk .btn-tertiary .label,
+.style-wmk .btn-disable .label,
 .style-wmk .btn-ghost .label {
   position: relative;
   top: -1px;
@@ -5694,7 +5870,9 @@ a.label:focus {
 .style-wmk .btn-primary .badge,
 .style-wmk .btn-primary-raised .badge,
 .style-wmk .btn-secondary .badge,
+.style-wmk .btn-secondary-black .badge,
 .style-wmk .btn-tertiary .badge,
+.style-wmk .btn-disable .badge,
 .style-wmk .btn-ghost .badge {
   position: relative;
   top: -1px;
@@ -5704,7 +5882,9 @@ a.label:focus {
 .btn-group-xs > .style-wmk .btn-primary .badge,
 .btn-group-xs > .style-wmk .btn-primary-raised .badge,
 .btn-group-xs > .style-wmk .btn-secondary .badge,
+.btn-group-xs > .style-wmk .btn-secondary-black .badge,
 .btn-group-xs > .style-wmk .btn-tertiary .badge,
+.btn-group-xs > .style-wmk .btn-disable .badge,
 .btn-group-xs > .style-wmk .btn-ghost .badge {
   top: 0;
   padding: 1px 5px;
@@ -6720,7 +6900,9 @@ button.close {
 .modal-footer .style-wmk .btn-primary + .style-wmk .btn-primary,
 .modal-footer .style-wmk .btn-primary-raised + .style-wmk .btn-primary-raised,
 .modal-footer .style-wmk .btn-secondary + .style-wmk .btn-secondary,
+.modal-footer .style-wmk .btn-secondary-black + .style-wmk .btn-secondary-black,
 .modal-footer .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
+.modal-footer .style-wmk .btn-disable + .style-wmk .btn-disable,
 .modal-footer .style-wmk .btn-ghost + .style-wmk .btn-ghost {
   margin-left: 5px;
   margin-bottom: 0;
@@ -6729,7 +6911,9 @@ button.close {
 .modal-footer .btn-group .style-wmk .btn-primary + .style-wmk .btn-primary,
 .modal-footer .btn-group .style-wmk .btn-primary-raised + .style-wmk .btn-primary-raised,
 .modal-footer .btn-group .style-wmk .btn-secondary + .style-wmk .btn-secondary,
+.modal-footer .btn-group .style-wmk .btn-secondary-black + .style-wmk .btn-secondary-black,
 .modal-footer .btn-group .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
+.modal-footer .btn-group .style-wmk .btn-disable + .style-wmk .btn-disable,
 .modal-footer .btn-group .style-wmk .btn-ghost + .style-wmk .btn-ghost {
   margin-left: -1px;
 }
@@ -7204,7 +7388,9 @@ button.close {
 .carousel-caption .style-wmk .btn-primary,
 .carousel-caption .style-wmk .btn-primary-raised,
 .carousel-caption .style-wmk .btn-secondary,
+.carousel-caption .style-wmk .btn-secondary-black,
 .carousel-caption .style-wmk .btn-tertiary,
+.carousel-caption .style-wmk .btn-disable,
 .carousel-caption .style-wmk .btn-ghost {
   text-shadow: none;
 }
@@ -7712,36 +7898,64 @@ button.close {
 .banner {
   padding: 100px 0px;
 }
-body {
+/* Navigation */
+.navbar {
+  background: #FFFFFF;
+  border-bottom: 0px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  height: 70px;
+}
+.banner {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.banner-template {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+}
+.demo {
+  padding-top: 10px;
+}
+.template-section {
+  padding-bottom: 50px;
+}
+/*---WMK Style---*/
+.style-wmk body {
   font-family: 'Sarabun', sans-serif;
   font-size: 16px;
 }
-h1 {
+.style-wmk h1 {
   font-family: 'ThaiSansNeue';
   font-size: 36px;
 }
-h2 {
+.style-wmk h2 {
   font-family: 'ThaiSansNeue';
   font-size: 30px;
 }
-h3 {
+.style-wmk h3 {
   font-family: 'Sarabun', sans-serif;
   font-size: 24px;
 }
-h4 {
+.style-wmk h4 {
   font-family: 'Sarabun', sans-serif;
   font-size: 18px;
 }
-small {
+.style-wmk small {
   font-family: 'Sarabun', sans-serif;
   font-size: 14px;
 }
-/*---WMK Style---*/
 .style-wmk .btn,
 .style-wmk .style-wmk .btn-primary,
 .style-wmk .style-wmk .btn-primary-raised,
 .style-wmk .style-wmk .btn-secondary,
+.style-wmk .style-wmk .btn-secondary-black,
 .style-wmk .style-wmk .btn-tertiary,
+.style-wmk .style-wmk .btn-disable,
 .style-wmk .style-wmk .btn-ghost {
   border-radius: 4px;
   font-size: 16px;
@@ -7754,7 +7968,9 @@ small {
 .style-wmk .style-wmk .btn-primary .icon,
 .style-wmk .style-wmk .btn-primary-raised .icon,
 .style-wmk .style-wmk .btn-secondary .icon,
+.style-wmk .style-wmk .btn-secondary-black .icon,
 .style-wmk .style-wmk .btn-tertiary .icon,
+.style-wmk .style-wmk .btn-disable .icon,
 .style-wmk .style-wmk .btn-ghost .icon {
   vertical-align: middle;
   margin-left: -4px;
@@ -8061,27 +8277,126 @@ fieldset[disabled] .style-wmk .btn-secondary.active {
   color: #FFFFFF;
   background-color: #03a9f4;
 }
-.style-wmk .btn-tertiary {
+.style-wmk .btn-secondary-black {
   color: #2b3549;
+  background-color: #FFFFFF;
+  border-color: #e2e5eb;
+  /* Font,Background,Border */
+}
+.style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black.focus {
+  color: #2b3549;
+  background-color: #e6e6e6;
+  border-color: #97a1b7;
+}
+.style-wmk .btn-secondary-black:hover {
+  color: #2b3549;
+  background-color: #e6e6e6;
+  border-color: #bec5d2;
+}
+.style-wmk .btn-secondary-black:active,
+.style-wmk .btn-secondary-black.active,
+.open > .dropdown-toggle.style-wmk .btn-secondary-black {
+  color: #2b3549;
+  background-color: #e6e6e6;
+  border-color: #bec5d2;
+}
+.style-wmk .btn-secondary-black:active:hover,
+.style-wmk .btn-secondary-black.active:hover,
+.open > .dropdown-toggle.style-wmk .btn-secondary-black:hover,
+.style-wmk .btn-secondary-black:active:focus,
+.style-wmk .btn-secondary-black.active:focus,
+.open > .dropdown-toggle.style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black:active.focus,
+.style-wmk .btn-secondary-black.active.focus,
+.open > .dropdown-toggle.style-wmk .btn-secondary-black.focus {
+  color: #2b3549;
+  background-color: #d4d4d4;
+  border-color: #97a1b7;
+}
+.style-wmk .btn-secondary-black:active,
+.style-wmk .btn-secondary-black.active,
+.open > .dropdown-toggle.style-wmk .btn-secondary-black {
+  background-image: none;
+}
+.style-wmk .btn-secondary-black.disabled:hover,
+.style-wmk .btn-secondary-black[disabled]:hover,
+fieldset[disabled] .style-wmk .btn-secondary-black:hover,
+.style-wmk .btn-secondary-black.disabled:focus,
+.style-wmk .btn-secondary-black[disabled]:focus,
+fieldset[disabled] .style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black.disabled.focus,
+.style-wmk .btn-secondary-black[disabled].focus,
+fieldset[disabled] .style-wmk .btn-secondary-black.focus {
+  background-color: #FFFFFF;
+  border-color: #e2e5eb;
+}
+.style-wmk .btn-secondary-black .badge {
+  color: #FFFFFF;
+  background-color: #2b3549;
+}
+.style-wmk .btn-secondary-black:hover,
+.style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black:active,
+.style-wmk .btn-secondary-black:active:focus,
+.style-wmk .btn-secondary-black.active,
+.open .dropdown-toggle.style-wmk .btn-secondary-black {
+  color: #2b3549;
+  background-color: #e6e6e6;
+  border-color: #bec5d2;
+}
+.style-wmk .btn-secondary-black:active,
+.style-wmk .btn-secondary-black.active,
+.style-wmk .btn-secondary-black:active:focus,
+.open .dropdown-toggle.style-wmk .btn-secondary-black {
+  background-image: none;
+}
+.style-wmk .btn-secondary-black.disabled,
+.style-wmk .btn-secondary-black[disabled],
+fieldset[disabled] .style-wmk .btn-secondary-black,
+.style-wmk .btn-secondary-black.disabled:hover,
+.style-wmk .btn-secondary-black[disabled]:hover,
+fieldset[disabled] .style-wmk .btn-secondary-black:hover,
+.style-wmk .btn-secondary-black.disabled:focus,
+.style-wmk .btn-secondary-black[disabled]:focus,
+fieldset[disabled] .style-wmk .btn-secondary-black:focus,
+.style-wmk .btn-secondary-black.disabled:active:focus,
+.style-wmk .btn-secondary-black[disabled]:active:focus,
+fieldset[disabled] .style-wmk .btn-secondary-black:active:focus,
+.style-wmk .btn-secondary-black.disabled:active,
+.style-wmk .btn-secondary-black[disabled]:active,
+fieldset[disabled] .style-wmk .btn-secondary-black:active,
+.style-wmk .btn-secondary-black.disabled.active,
+.style-wmk .btn-secondary-black[disabled].active,
+fieldset[disabled] .style-wmk .btn-secondary-black.active {
+  background-color: #FFFFFF;
+  border-color: #e2e5eb;
+}
+.style-wmk .btn-secondary-black .badge {
+  color: #FFFFFF;
+  background-color: #2b3549;
+}
+.style-wmk .btn-tertiary {
+  color: #03a9f4;
   background-color: #FFFFFF;
   border-color: #e2e5eb;
   /* Font,Background,Border */
 }
 .style-wmk .btn-tertiary:focus,
 .style-wmk .btn-tertiary.focus {
-  color: #2b3549;
+  color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #97a1b7;
 }
 .style-wmk .btn-tertiary:hover {
-  color: #2b3549;
+  color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #bec5d2;
 }
 .style-wmk .btn-tertiary:active,
 .style-wmk .btn-tertiary.active,
 .open > .dropdown-toggle.style-wmk .btn-tertiary {
-  color: #2b3549;
+  color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #bec5d2;
 }
@@ -8094,7 +8409,7 @@ fieldset[disabled] .style-wmk .btn-secondary.active {
 .style-wmk .btn-tertiary:active.focus,
 .style-wmk .btn-tertiary.active.focus,
 .open > .dropdown-toggle.style-wmk .btn-tertiary.focus {
-  color: #2b3549;
+  color: #03a9f4;
   background-color: #d4d4d4;
   border-color: #97a1b7;
 }
@@ -8117,7 +8432,7 @@ fieldset[disabled] .style-wmk .btn-tertiary.focus {
 }
 .style-wmk .btn-tertiary .badge {
   color: #FFFFFF;
-  background-color: #2b3549;
+  background-color: #03a9f4;
 }
 .style-wmk .btn-tertiary:hover,
 .style-wmk .btn-tertiary:focus,
@@ -8125,7 +8440,7 @@ fieldset[disabled] .style-wmk .btn-tertiary.focus {
 .style-wmk .btn-tertiary:active:focus,
 .style-wmk .btn-tertiary.active,
 .open .dropdown-toggle.style-wmk .btn-tertiary {
-  color: #2b3549;
+  color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #bec5d2;
 }
@@ -8158,7 +8473,106 @@ fieldset[disabled] .style-wmk .btn-tertiary.active {
 }
 .style-wmk .btn-tertiary .badge {
   color: #FFFFFF;
-  background-color: #2b3549;
+  background-color: #03a9f4;
+}
+.style-wmk .btn-disable {
+  color: #758093;
+  background-color: #e2e5eb;
+  border-color: #e2e5eb;
+  /* Font,Background,Border */
+}
+.style-wmk .btn-disable:focus,
+.style-wmk .btn-disable.focus {
+  color: #758093;
+  background-color: #c4cad6;
+  border-color: #97a1b7;
+}
+.style-wmk .btn-disable:hover {
+  color: #758093;
+  background-color: #c4cad6;
+  border-color: #bec5d2;
+}
+.style-wmk .btn-disable:active,
+.style-wmk .btn-disable.active,
+.open > .dropdown-toggle.style-wmk .btn-disable {
+  color: #758093;
+  background-color: #c4cad6;
+  border-color: #bec5d2;
+}
+.style-wmk .btn-disable:active:hover,
+.style-wmk .btn-disable.active:hover,
+.open > .dropdown-toggle.style-wmk .btn-disable:hover,
+.style-wmk .btn-disable:active:focus,
+.style-wmk .btn-disable.active:focus,
+.open > .dropdown-toggle.style-wmk .btn-disable:focus,
+.style-wmk .btn-disable:active.focus,
+.style-wmk .btn-disable.active.focus,
+.open > .dropdown-toggle.style-wmk .btn-disable.focus {
+  color: #758093;
+  background-color: #afb7c8;
+  border-color: #97a1b7;
+}
+.style-wmk .btn-disable:active,
+.style-wmk .btn-disable.active,
+.open > .dropdown-toggle.style-wmk .btn-disable {
+  background-image: none;
+}
+.style-wmk .btn-disable.disabled:hover,
+.style-wmk .btn-disable[disabled]:hover,
+fieldset[disabled] .style-wmk .btn-disable:hover,
+.style-wmk .btn-disable.disabled:focus,
+.style-wmk .btn-disable[disabled]:focus,
+fieldset[disabled] .style-wmk .btn-disable:focus,
+.style-wmk .btn-disable.disabled.focus,
+.style-wmk .btn-disable[disabled].focus,
+fieldset[disabled] .style-wmk .btn-disable.focus {
+  background-color: #e2e5eb;
+  border-color: #e2e5eb;
+}
+.style-wmk .btn-disable .badge {
+  color: #e2e5eb;
+  background-color: #758093;
+}
+.style-wmk .btn-disable:hover,
+.style-wmk .btn-disable:focus,
+.style-wmk .btn-disable:active,
+.style-wmk .btn-disable:active:focus,
+.style-wmk .btn-disable.active,
+.open .dropdown-toggle.style-wmk .btn-disable {
+  color: #758093;
+  background-color: #c4cad6;
+  border-color: #bec5d2;
+}
+.style-wmk .btn-disable:active,
+.style-wmk .btn-disable.active,
+.style-wmk .btn-disable:active:focus,
+.open .dropdown-toggle.style-wmk .btn-disable {
+  background-image: none;
+}
+.style-wmk .btn-disable.disabled,
+.style-wmk .btn-disable[disabled],
+fieldset[disabled] .style-wmk .btn-disable,
+.style-wmk .btn-disable.disabled:hover,
+.style-wmk .btn-disable[disabled]:hover,
+fieldset[disabled] .style-wmk .btn-disable:hover,
+.style-wmk .btn-disable.disabled:focus,
+.style-wmk .btn-disable[disabled]:focus,
+fieldset[disabled] .style-wmk .btn-disable:focus,
+.style-wmk .btn-disable.disabled:active:focus,
+.style-wmk .btn-disable[disabled]:active:focus,
+fieldset[disabled] .style-wmk .btn-disable:active:focus,
+.style-wmk .btn-disable.disabled:active,
+.style-wmk .btn-disable[disabled]:active,
+fieldset[disabled] .style-wmk .btn-disable:active,
+.style-wmk .btn-disable.disabled.active,
+.style-wmk .btn-disable[disabled].active,
+fieldset[disabled] .style-wmk .btn-disable.active {
+  background-color: #e2e5eb;
+  border-color: #e2e5eb;
+}
+.style-wmk .btn-disable .badge {
+  color: #e2e5eb;
+  background-color: #758093;
 }
 .style-wmk .btn-ghost {
   background: none;

@@ -30,67 +30,93 @@
 <!-- End Facebook Pixel Code -->
 
 </head>
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <body class="color-wmk-grey-0">
+    <!-- top navigation -->
+    <nav class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">
+            <img src="images/logo-wmk.png" alt="">
+          </a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
+
       </div>
     </nav>
+    <!-- End top navigation -->
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="banner">
-      <div class="container color-wmk-theme-600">
-        <h1>สวัสดีโลกนี้!!!!</h1>
-        <h2>สวัสดีโลกนี้!!!!</h2>
-        <h3>สวัสดีโลกนี้!!!!</h3>
-        <h4>สวัสดีโลกนี้!!!!</h4>
-        <p>Body สวัสดีโลกนี้!!!!</p>
-        <small>Caption สวัสดีโลกนี้!!!!</small>
-
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary" href="#" role="button">Learn more »</a></p>
+      <div class="container style-wmk banner-template color-wmk-white">
+        <h1>ตัวอย่าง Template</h1>
+        <p>Template เพื่อแสดงตัวอย่างของต่างๆ ที่ถูกใช้อยู่ใน design system นี้ เพื่อใช้เป็นจุดเริ่มในการปรับแต่งและสร้างหน้าใหม</p>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-        </div>
-      </div>
+        <section id="cta-button" class="template-section">
+          <h1>CTA Buttons</h1>
+          <hr>
+          <div class="demo style-wmk">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary-raised"><img src="../images/wmk/icon/icon-button-Add(white).svg" alt="icon" class="icon">Primary</button>
+          </div>
 
-      <hr>
+          <div class="demo style-wmk">
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-secondary"><img src="../images/wmk/icon/icon-button-Add(blue).svg" alt="icon" class="icon">Secondary</button>
+            <button type="button" class="btn btn-secondary-black">Secondary</button>
+            <button type="button" class="btn btn-secondary-black"><img src="../images/wmk/icon/icon-button-Add(black).svg" alt="icon" class="icon">Secondary</button>
+          </div>
+
+          <div class="demo style-wmk">
+            <button type="button" class="btn btn-tertiary">Tertiary</button>
+            <button type="button" class="btn btn-tertiary"><img src="../images/wmk/icon/icon-button-Add(blue).svg" alt="icon" class="icon">Tertiary</button>
+          </div>
+
+          <div class="demo style-wmk">
+            <button type="button" class="btn btn-disable">Disable</button>
+          </div>
+        </section>
+
+        <section id="other-button" class="template-section">
+          <h1>Other Buttons</h1>
+          <hr>
+          <div class="demo style-wmk">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Option A
+              </label>
+              <label class="btn btn-secondary-black ">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Option B
+              </label>
+              <label class="btn btn-secondary-black">
+                <input type="radio" name="options" id="option3" autocomplete="off"> Option C
+              </label>
+            </div>
+          </div>
+        </section>
+
+        <section id="text-input">
+          <h1>Text Input</h1>
+          <hr>
+
+        </section>
+
+        <section id="dropdown-selection">
+          <h1>Dropdown and Selection</h1>
+          <hr>
+
+        </section>
+
+        <section id="tables">
+          <h1>Tables</h1>
+          <hr>
+
+        </section>
+
+
 
       <footer>
         <p>© 2018 Company, Inc.</p>
