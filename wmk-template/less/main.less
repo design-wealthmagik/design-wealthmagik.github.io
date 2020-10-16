@@ -148,11 +148,16 @@ To compile:
     /* Font,Background,Border */
   }
 
-  .btn-toggle:active,.btn-toggle:hover,.btn-toggle:focus, {
-    &:extend(.btn all);
+
+  .btn-toggle:hover,
+  .btn-toggle:focus,
+  .btn-toggle:active,
+  .btn-toggle:active:focus,
+  .btn-toggle.active {
     .button-variant(@color-wmk-theme-primary, @color-wmk-white, @color-wmk-theme-primary);
-    /* Font,Background,Border */
-  }
+}
+
+
 
 
 

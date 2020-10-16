@@ -257,12 +257,6 @@ th {
   .dropup > .style-wmk .btn-disable > .caret,
   .style-wmk .btn-toggle > .caret,
   .dropup > .style-wmk .btn-toggle > .caret,
-  .style-wmk .btn-toggle:active > .caret,
-  .dropup > .style-wmk .btn-toggle:active > .caret,
-  .style-wmk .btn-toggle:hover > .caret,
-  .dropup > .style-wmk .btn-toggle:hover > .caret,
-  .style-wmk .btn-toggle:focus > .caret,
-  .dropup > .style-wmk .btn-toggle:focus > .caret,
   .style-wmk .btn-ghost > .caret,
   .dropup > .style-wmk .btn-ghost > .caret {
     border-top-color: #000 !important;
@@ -3116,9 +3110,6 @@ select[multiple].input-lg {
 .style-wmk .btn-tertiary,
 .style-wmk .btn-disable,
 .style-wmk .btn-toggle,
-.style-wmk .btn-toggle:active,
-.style-wmk .btn-toggle:hover,
-.style-wmk .btn-toggle:focus,
 .style-wmk .btn-ghost {
   display: inline-block;
   margin-bottom: 0;
@@ -3187,24 +3178,6 @@ select[multiple].input-lg {
 .style-wmk .btn-toggle.focus,
 .style-wmk .btn-toggle:active.focus,
 .style-wmk .btn-toggle.active.focus,
-.style-wmk .btn-toggle:active:focus,
-.style-wmk .btn-toggle:active:active:focus,
-.style-wmk .btn-toggle:active.active:focus,
-.style-wmk .btn-toggle:active.focus,
-.style-wmk .btn-toggle:active:active.focus,
-.style-wmk .btn-toggle:active.active.focus,
-.style-wmk .btn-toggle:hover:focus,
-.style-wmk .btn-toggle:hover:active:focus,
-.style-wmk .btn-toggle:hover.active:focus,
-.style-wmk .btn-toggle:hover.focus,
-.style-wmk .btn-toggle:hover:active.focus,
-.style-wmk .btn-toggle:hover.active.focus,
-.style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:focus.active:focus,
-.style-wmk .btn-toggle:focus.focus,
-.style-wmk .btn-toggle:focus:active.focus,
-.style-wmk .btn-toggle:focus.active.focus,
 .style-wmk .btn-ghost:focus,
 .style-wmk .btn-ghost:active:focus,
 .style-wmk .btn-ghost.active:focus,
@@ -3238,15 +3211,6 @@ select[multiple].input-lg {
 .style-wmk .btn-toggle:hover,
 .style-wmk .btn-toggle:focus,
 .style-wmk .btn-toggle.focus,
-.style-wmk .btn-toggle:active:hover,
-.style-wmk .btn-toggle:active:focus,
-.style-wmk .btn-toggle:active.focus,
-.style-wmk .btn-toggle:hover:hover,
-.style-wmk .btn-toggle:hover:focus,
-.style-wmk .btn-toggle:hover.focus,
-.style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:focus.focus,
 .style-wmk .btn-ghost:hover,
 .style-wmk .btn-ghost:focus,
 .style-wmk .btn-ghost.focus {
@@ -3269,12 +3233,6 @@ select[multiple].input-lg {
 .style-wmk .btn-disable.active,
 .style-wmk .btn-toggle:active,
 .style-wmk .btn-toggle.active,
-.style-wmk .btn-toggle:active:active,
-.style-wmk .btn-toggle:active.active,
-.style-wmk .btn-toggle:hover:active,
-.style-wmk .btn-toggle:hover.active,
-.style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:focus.active,
 .style-wmk .btn-ghost:active,
 .style-wmk .btn-ghost.active {
   outline: 0;
@@ -3306,15 +3264,6 @@ fieldset[disabled] .style-wmk .btn-disable,
 .style-wmk .btn-toggle.disabled,
 .style-wmk .btn-toggle[disabled],
 fieldset[disabled] .style-wmk .btn-toggle,
-.style-wmk .btn-toggle:active.disabled,
-.style-wmk .btn-toggle:active[disabled],
-fieldset[disabled] .style-wmk .btn-toggle:active,
-.style-wmk .btn-toggle:hover.disabled,
-.style-wmk .btn-toggle:hover[disabled],
-fieldset[disabled] .style-wmk .btn-toggle:hover,
-.style-wmk .btn-toggle:focus.disabled,
-.style-wmk .btn-toggle:focus[disabled],
-fieldset[disabled] .style-wmk .btn-toggle:focus,
 .style-wmk .btn-ghost.disabled,
 .style-wmk .btn-ghost[disabled],
 fieldset[disabled] .style-wmk .btn-ghost {
@@ -3340,12 +3289,6 @@ a.style-wmk .btn-disable.disabled,
 fieldset[disabled] a.style-wmk .btn-disable,
 a.style-wmk .btn-toggle.disabled,
 fieldset[disabled] a.style-wmk .btn-toggle,
-a.style-wmk .btn-toggle:active.disabled,
-fieldset[disabled] a.style-wmk .btn-toggle:active,
-a.style-wmk .btn-toggle:hover.disabled,
-fieldset[disabled] a.style-wmk .btn-toggle:hover,
-a.style-wmk .btn-toggle:focus.disabled,
-fieldset[disabled] a.style-wmk .btn-toggle:focus,
 a.style-wmk .btn-ghost.disabled,
 fieldset[disabled] a.style-wmk .btn-ghost {
   pointer-events: none;
@@ -3980,9 +3923,6 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-lg > .style-wmk .btn-tertiary,
 .btn-group-lg > .style-wmk .btn-disable,
 .btn-group-lg > .style-wmk .btn-toggle,
-.btn-group-lg > .style-wmk .btn-toggle:active,
-.btn-group-lg > .style-wmk .btn-toggle:hover,
-.btn-group-lg > .style-wmk .btn-toggle:focus,
 .btn-group-lg > .style-wmk .btn-ghost {
   padding: 10px 16px;
   font-size: 18px;
@@ -3998,9 +3938,6 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-sm > .style-wmk .btn-tertiary,
 .btn-group-sm > .style-wmk .btn-disable,
 .btn-group-sm > .style-wmk .btn-toggle,
-.btn-group-sm > .style-wmk .btn-toggle:active,
-.btn-group-sm > .style-wmk .btn-toggle:hover,
-.btn-group-sm > .style-wmk .btn-toggle:focus,
 .btn-group-sm > .style-wmk .btn-ghost {
   padding: 5px 10px;
   font-size: 12px;
@@ -4016,9 +3953,6 @@ fieldset[disabled] .btn-link:focus {
 .btn-group-xs > .style-wmk .btn-tertiary,
 .btn-group-xs > .style-wmk .btn-disable,
 .btn-group-xs > .style-wmk .btn-toggle,
-.btn-group-xs > .style-wmk .btn-toggle:active,
-.btn-group-xs > .style-wmk .btn-toggle:hover,
-.btn-group-xs > .style-wmk .btn-toggle:focus,
 .btn-group-xs > .style-wmk .btn-ghost {
   padding: 1px 5px;
   font-size: 12px;
@@ -4233,12 +4167,6 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-disable,
 .btn-group > .style-wmk .btn-toggle,
 .btn-group-vertical > .style-wmk .btn-toggle,
-.btn-group > .style-wmk .btn-toggle:active,
-.btn-group-vertical > .style-wmk .btn-toggle:active,
-.btn-group > .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:hover,
-.btn-group > .style-wmk .btn-toggle:focus,
-.btn-group-vertical > .style-wmk .btn-toggle:focus,
 .btn-group > .style-wmk .btn-ghost,
 .btn-group-vertical > .style-wmk .btn-ghost {
   position: relative;
@@ -4308,30 +4236,6 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-toggle:active,
 .btn-group > .style-wmk .btn-toggle.active,
 .btn-group-vertical > .style-wmk .btn-toggle.active,
-.btn-group > .style-wmk .btn-toggle:active:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:active:hover,
-.btn-group > .style-wmk .btn-toggle:active:focus,
-.btn-group-vertical > .style-wmk .btn-toggle:active:focus,
-.btn-group > .style-wmk .btn-toggle:active:active,
-.btn-group-vertical > .style-wmk .btn-toggle:active:active,
-.btn-group > .style-wmk .btn-toggle:active.active,
-.btn-group-vertical > .style-wmk .btn-toggle:active.active,
-.btn-group > .style-wmk .btn-toggle:hover:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:hover:hover,
-.btn-group > .style-wmk .btn-toggle:hover:focus,
-.btn-group-vertical > .style-wmk .btn-toggle:hover:focus,
-.btn-group > .style-wmk .btn-toggle:hover:active,
-.btn-group-vertical > .style-wmk .btn-toggle:hover:active,
-.btn-group > .style-wmk .btn-toggle:hover.active,
-.btn-group-vertical > .style-wmk .btn-toggle:hover.active,
-.btn-group > .style-wmk .btn-toggle:focus:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:focus:hover,
-.btn-group > .style-wmk .btn-toggle:focus:focus,
-.btn-group-vertical > .style-wmk .btn-toggle:focus:focus,
-.btn-group > .style-wmk .btn-toggle:focus:active,
-.btn-group-vertical > .style-wmk .btn-toggle:focus:active,
-.btn-group > .style-wmk .btn-toggle:focus.active,
-.btn-group-vertical > .style-wmk .btn-toggle:focus.active,
 .btn-group > .style-wmk .btn-ghost:hover,
 .btn-group-vertical > .style-wmk .btn-ghost:hover,
 .btn-group > .style-wmk .btn-ghost:focus,
@@ -4367,15 +4271,6 @@ tbody.collapse.in {
 .btn-group .style-wmk .btn-toggle + .style-wmk .btn-toggle,
 .btn-group .style-wmk .btn-toggle + .btn-group,
 .btn-group .btn-group + .style-wmk .btn-toggle,
-.btn-group .style-wmk .btn-toggle:active + .style-wmk .btn-toggle:active,
-.btn-group .style-wmk .btn-toggle:active + .btn-group,
-.btn-group .btn-group + .style-wmk .btn-toggle:active,
-.btn-group .style-wmk .btn-toggle:hover + .style-wmk .btn-toggle:hover,
-.btn-group .style-wmk .btn-toggle:hover + .btn-group,
-.btn-group .btn-group + .style-wmk .btn-toggle:hover,
-.btn-group .style-wmk .btn-toggle:focus + .style-wmk .btn-toggle:focus,
-.btn-group .style-wmk .btn-toggle:focus + .btn-group,
-.btn-group .btn-group + .style-wmk .btn-toggle:focus,
 .btn-group .style-wmk .btn-ghost + .style-wmk .btn-ghost,
 .btn-group .style-wmk .btn-ghost + .btn-group,
 .btn-group .btn-group + .style-wmk .btn-ghost {
@@ -4394,9 +4289,6 @@ tbody.collapse.in {
 .btn-toolbar .style-wmk .btn-tertiary,
 .btn-toolbar .style-wmk .btn-disable,
 .btn-toolbar .style-wmk .btn-toggle,
-.btn-toolbar .style-wmk .btn-toggle:active,
-.btn-toolbar .style-wmk .btn-toggle:hover,
-.btn-toolbar .style-wmk .btn-toggle:focus,
 .btn-toolbar .style-wmk .btn-ghost {
   float: left;
 }
@@ -4410,9 +4302,6 @@ tbody.collapse.in {
 .btn-toolbar > .style-wmk .btn-tertiary,
 .btn-toolbar > .style-wmk .btn-disable,
 .btn-toolbar > .style-wmk .btn-toggle,
-.btn-toolbar > .style-wmk .btn-toggle:active,
-.btn-toolbar > .style-wmk .btn-toggle:hover,
-.btn-toolbar > .style-wmk .btn-toggle:focus,
 .btn-toolbar > .style-wmk .btn-ghost {
   margin-left: 5px;
 }
@@ -4424,9 +4313,6 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-tertiary:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-disable:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-toggle:not(:first-child):not(:last-child):not(.dropdown-toggle),
-.btn-group > .style-wmk .btn-toggle:active:not(:first-child):not(:last-child):not(.dropdown-toggle),
-.btn-group > .style-wmk .btn-toggle:hover:not(:first-child):not(:last-child):not(.dropdown-toggle),
-.btn-group > .style-wmk .btn-toggle:focus:not(:first-child):not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-ghost:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0;
 }
@@ -4438,9 +4324,6 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-tertiary:first-child,
 .btn-group > .style-wmk .btn-disable:first-child,
 .btn-group > .style-wmk .btn-toggle:first-child,
-.btn-group > .style-wmk .btn-toggle:active:first-child,
-.btn-group > .style-wmk .btn-toggle:hover:first-child,
-.btn-group > .style-wmk .btn-toggle:focus:first-child,
 .btn-group > .style-wmk .btn-ghost:first-child {
   margin-left: 0;
 }
@@ -4452,9 +4335,6 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-tertiary:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-disable:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-toggle:first-child:not(:last-child):not(.dropdown-toggle),
-.btn-group > .style-wmk .btn-toggle:active:first-child:not(:last-child):not(.dropdown-toggle),
-.btn-group > .style-wmk .btn-toggle:hover:first-child:not(:last-child):not(.dropdown-toggle),
-.btn-group > .style-wmk .btn-toggle:focus:first-child:not(:last-child):not(.dropdown-toggle),
 .btn-group > .style-wmk .btn-ghost:first-child:not(:last-child):not(.dropdown-toggle) {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
@@ -4468,9 +4348,6 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-tertiary:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-disable:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-toggle:last-child:not(:first-child),
-.btn-group > .style-wmk .btn-toggle:active:last-child:not(:first-child),
-.btn-group > .style-wmk .btn-toggle:hover:last-child:not(:first-child),
-.btn-group > .style-wmk .btn-toggle:focus:last-child:not(:first-child),
 .btn-group > .style-wmk .btn-ghost:last-child:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -4486,9 +4363,6 @@ tbody.collapse.in {
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-tertiary,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-disable,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle,
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle:active,
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle:hover,
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle:focus,
 .btn-group > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-ghost {
   border-radius: 0;
 }
@@ -4501,9 +4375,6 @@ tbody.collapse.in {
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-tertiary:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-disable:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:last-child,
-.btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:active:last-child,
-.btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:hover:last-child,
-.btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:focus:last-child,
 .btn-group > .btn-group:first-child:not(:last-child) > .style-wmk .btn-ghost:last-child {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
@@ -4516,9 +4387,6 @@ tbody.collapse.in {
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-tertiary:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-disable:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:first-child,
-.btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:active:first-child,
-.btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:hover:first-child,
-.btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:focus:first-child,
 .btn-group > .btn-group:last-child:not(:first-child) > .style-wmk .btn-ghost:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
@@ -4535,9 +4403,6 @@ tbody.collapse.in {
 .btn-group > .style-wmk .btn-tertiary + .dropdown-toggle,
 .btn-group > .style-wmk .btn-disable + .dropdown-toggle,
 .btn-group > .style-wmk .btn-toggle + .dropdown-toggle,
-.btn-group > .style-wmk .btn-toggle:active + .dropdown-toggle,
-.btn-group > .style-wmk .btn-toggle:hover + .dropdown-toggle,
-.btn-group > .style-wmk .btn-toggle:focus + .dropdown-toggle,
 .btn-group > .style-wmk .btn-ghost + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px;
@@ -4562,9 +4427,6 @@ tbody.collapse.in {
 .style-wmk .btn-tertiary .caret,
 .style-wmk .btn-disable .caret,
 .style-wmk .btn-toggle .caret,
-.style-wmk .btn-toggle:active .caret,
-.style-wmk .btn-toggle:hover .caret,
-.style-wmk .btn-toggle:focus .caret,
 .style-wmk .btn-ghost .caret {
   margin-left: 0;
 }
@@ -4592,12 +4454,6 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group > .style-wmk .btn-disable,
 .btn-group-vertical > .style-wmk .btn-toggle,
 .btn-group-vertical > .btn-group > .style-wmk .btn-toggle,
-.btn-group-vertical > .style-wmk .btn-toggle:active,
-.btn-group-vertical > .btn-group > .style-wmk .btn-toggle:active,
-.btn-group-vertical > .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .btn-group > .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:focus,
-.btn-group-vertical > .btn-group > .style-wmk .btn-toggle:focus,
 .btn-group-vertical > .style-wmk .btn-ghost,
 .btn-group-vertical > .btn-group > .style-wmk .btn-ghost {
   display: block;
@@ -4613,9 +4469,6 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group > .style-wmk .btn-tertiary,
 .btn-group-vertical > .btn-group > .style-wmk .btn-disable,
 .btn-group-vertical > .btn-group > .style-wmk .btn-toggle,
-.btn-group-vertical > .btn-group > .style-wmk .btn-toggle:active,
-.btn-group-vertical > .btn-group > .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .btn-group > .style-wmk .btn-toggle:focus,
 .btn-group-vertical > .btn-group > .style-wmk .btn-ghost {
   float: none;
 }
@@ -4644,15 +4497,6 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-toggle + .style-wmk .btn-toggle,
 .btn-group-vertical > .style-wmk .btn-toggle + .btn-group,
 .btn-group-vertical > .btn-group + .style-wmk .btn-toggle,
-.btn-group-vertical > .style-wmk .btn-toggle:active + .style-wmk .btn-toggle:active,
-.btn-group-vertical > .style-wmk .btn-toggle:active + .btn-group,
-.btn-group-vertical > .btn-group + .style-wmk .btn-toggle:active,
-.btn-group-vertical > .style-wmk .btn-toggle:hover + .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:hover + .btn-group,
-.btn-group-vertical > .btn-group + .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .style-wmk .btn-toggle:focus + .style-wmk .btn-toggle:focus,
-.btn-group-vertical > .style-wmk .btn-toggle:focus + .btn-group,
-.btn-group-vertical > .btn-group + .style-wmk .btn-toggle:focus,
 .btn-group-vertical > .style-wmk .btn-ghost + .style-wmk .btn-ghost,
 .btn-group-vertical > .style-wmk .btn-ghost + .btn-group,
 .btn-group-vertical > .btn-group + .style-wmk .btn-ghost {
@@ -4667,9 +4511,6 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-tertiary:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-disable:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-toggle:not(:first-child):not(:last-child),
-.btn-group-vertical > .style-wmk .btn-toggle:active:not(:first-child):not(:last-child),
-.btn-group-vertical > .style-wmk .btn-toggle:hover:not(:first-child):not(:last-child),
-.btn-group-vertical > .style-wmk .btn-toggle:focus:not(:first-child):not(:last-child),
 .btn-group-vertical > .style-wmk .btn-ghost:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
@@ -4681,9 +4522,6 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-tertiary:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-disable:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-toggle:first-child:not(:last-child),
-.btn-group-vertical > .style-wmk .btn-toggle:active:first-child:not(:last-child),
-.btn-group-vertical > .style-wmk .btn-toggle:hover:first-child:not(:last-child),
-.btn-group-vertical > .style-wmk .btn-toggle:focus:first-child:not(:last-child),
 .btn-group-vertical > .style-wmk .btn-ghost:first-child:not(:last-child) {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -4698,9 +4536,6 @@ tbody.collapse.in {
 .btn-group-vertical > .style-wmk .btn-tertiary:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-disable:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-toggle:last-child:not(:first-child),
-.btn-group-vertical > .style-wmk .btn-toggle:active:last-child:not(:first-child),
-.btn-group-vertical > .style-wmk .btn-toggle:hover:last-child:not(:first-child),
-.btn-group-vertical > .style-wmk .btn-toggle:focus:last-child:not(:first-child),
 .btn-group-vertical > .style-wmk .btn-ghost:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -4715,9 +4550,6 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-tertiary,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-disable,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle,
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle:active,
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle:hover,
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-toggle:focus,
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .style-wmk .btn-ghost {
   border-radius: 0;
 }
@@ -4730,9 +4562,6 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-tertiary:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-disable:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:last-child,
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:active:last-child,
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:hover:last-child,
-.btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-toggle:focus:last-child,
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .style-wmk .btn-ghost:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -4745,9 +4574,6 @@ tbody.collapse.in {
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-tertiary:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-disable:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:first-child,
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:active:first-child,
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:hover:first-child,
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-toggle:focus:first-child,
 .btn-group-vertical > .btn-group:last-child:not(:first-child) > .style-wmk .btn-ghost:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
@@ -4767,9 +4593,6 @@ tbody.collapse.in {
 .btn-group-justified > .style-wmk .btn-tertiary,
 .btn-group-justified > .style-wmk .btn-disable,
 .btn-group-justified > .style-wmk .btn-toggle,
-.btn-group-justified > .style-wmk .btn-toggle:active,
-.btn-group-justified > .style-wmk .btn-toggle:hover,
-.btn-group-justified > .style-wmk .btn-toggle:focus,
 .btn-group-justified > .style-wmk .btn-ghost {
   float: none;
   display: table-cell;
@@ -4783,9 +4606,6 @@ tbody.collapse.in {
 .btn-group-justified > .btn-group .style-wmk .btn-tertiary,
 .btn-group-justified > .btn-group .style-wmk .btn-disable,
 .btn-group-justified > .btn-group .style-wmk .btn-toggle,
-.btn-group-justified > .btn-group .style-wmk .btn-toggle:active,
-.btn-group-justified > .btn-group .style-wmk .btn-toggle:hover,
-.btn-group-justified > .btn-group .style-wmk .btn-toggle:focus,
 .btn-group-justified > .btn-group .style-wmk .btn-ghost {
   width: 100%;
 }
@@ -4824,18 +4644,6 @@ tbody.collapse.in {
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle input[type="radio"],
 [data-toggle="buttons"] > .style-wmk .btn-toggle input[type="checkbox"],
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle input[type="checkbox"],
-[data-toggle="buttons"] > .style-wmk .btn-toggle:active input[type="radio"],
-[data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle:active input[type="radio"],
-[data-toggle="buttons"] > .style-wmk .btn-toggle:active input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle:active input[type="checkbox"],
-[data-toggle="buttons"] > .style-wmk .btn-toggle:hover input[type="radio"],
-[data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle:hover input[type="radio"],
-[data-toggle="buttons"] > .style-wmk .btn-toggle:hover input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle:hover input[type="checkbox"],
-[data-toggle="buttons"] > .style-wmk .btn-toggle:focus input[type="radio"],
-[data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle:focus input[type="radio"],
-[data-toggle="buttons"] > .style-wmk .btn-toggle:focus input[type="checkbox"],
-[data-toggle="buttons"] > .btn-group > .style-wmk .btn-toggle:focus input[type="checkbox"],
 [data-toggle="buttons"] > .style-wmk .btn-ghost input[type="radio"],
 [data-toggle="buttons"] > .btn-group > .style-wmk .btn-ghost input[type="radio"],
 [data-toggle="buttons"] > .style-wmk .btn-ghost input[type="checkbox"],
@@ -4874,9 +4682,6 @@ tbody.collapse.in {
 .input-group-lg > .input-group-btn > .style-wmk .btn-tertiary,
 .input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 .input-group-lg > .input-group-btn > .style-wmk .btn-toggle,
-.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:active,
-.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:hover,
-.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:focus,
 .input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
   height: 46px;
   padding: 10px 16px;
@@ -4894,9 +4699,6 @@ select.input-group-lg > .input-group-btn > .style-wmk .btn-secondary-black,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-tertiary,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-toggle,
-select.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:active,
-select.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:hover,
-select.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:focus,
 select.input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
   height: 46px;
   line-height: 46px;
@@ -4921,12 +4723,6 @@ textarea.input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-disable,
 textarea.input-group-lg > .input-group-btn > .style-wmk .btn-toggle,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-toggle,
-textarea.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:active,
-select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-toggle:active,
-textarea.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:hover,
-select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-toggle:hover,
-textarea.input-group-lg > .input-group-btn > .style-wmk .btn-toggle:focus,
-select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-toggle:focus,
 textarea.input-group-lg > .input-group-btn > .style-wmk .btn-ghost,
 select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
   height: auto;
@@ -4941,9 +4737,6 @@ select[multiple].input-group-lg > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-sm > .input-group-btn > .style-wmk .btn-tertiary,
 .input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 .input-group-sm > .input-group-btn > .style-wmk .btn-toggle,
-.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:active,
-.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:hover,
-.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:focus,
 .input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
   height: 30px;
   padding: 5px 10px;
@@ -4961,9 +4754,6 @@ select.input-group-sm > .input-group-btn > .style-wmk .btn-secondary-black,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-tertiary,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-toggle,
-select.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:active,
-select.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:hover,
-select.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:focus,
 select.input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
   height: 30px;
   line-height: 30px;
@@ -4988,12 +4778,6 @@ textarea.input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-disable,
 textarea.input-group-sm > .input-group-btn > .style-wmk .btn-toggle,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-toggle,
-textarea.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:active,
-select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-toggle:active,
-textarea.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:hover,
-select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-toggle:hover,
-textarea.input-group-sm > .input-group-btn > .style-wmk .btn-toggle:focus,
-select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-toggle:focus,
 textarea.input-group-sm > .input-group-btn > .style-wmk .btn-ghost,
 select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
   height: auto;
@@ -5074,18 +4858,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:first-child > .btn-group > .style-wmk .btn-toggle,
 .input-group-btn:last-child > .style-wmk .btn-toggle:not(:last-child):not(.dropdown-toggle),
 .input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-toggle,
-.input-group-btn:first-child > .style-wmk .btn-toggle:active,
-.input-group-btn:first-child > .btn-group > .style-wmk .btn-toggle:active,
-.input-group-btn:last-child > .style-wmk .btn-toggle:active:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-toggle:active,
-.input-group-btn:first-child > .style-wmk .btn-toggle:hover,
-.input-group-btn:first-child > .btn-group > .style-wmk .btn-toggle:hover,
-.input-group-btn:last-child > .style-wmk .btn-toggle:hover:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-toggle:hover,
-.input-group-btn:first-child > .style-wmk .btn-toggle:focus,
-.input-group-btn:first-child > .btn-group > .style-wmk .btn-toggle:focus,
-.input-group-btn:last-child > .style-wmk .btn-toggle:focus:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-group:not(:last-child) > .style-wmk .btn-toggle:focus,
 .input-group-btn:first-child > .style-wmk .btn-ghost,
 .input-group-btn:first-child > .btn-group > .style-wmk .btn-ghost,
 .input-group-btn:last-child > .style-wmk .btn-ghost:not(:last-child):not(.dropdown-toggle),
@@ -5131,18 +4903,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:last-child > .btn-group > .style-wmk .btn-toggle,
 .input-group-btn:first-child > .style-wmk .btn-toggle:not(:first-child),
 .input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-toggle,
-.input-group-btn:last-child > .style-wmk .btn-toggle:active,
-.input-group-btn:last-child > .btn-group > .style-wmk .btn-toggle:active,
-.input-group-btn:first-child > .style-wmk .btn-toggle:active:not(:first-child),
-.input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-toggle:active,
-.input-group-btn:last-child > .style-wmk .btn-toggle:hover,
-.input-group-btn:last-child > .btn-group > .style-wmk .btn-toggle:hover,
-.input-group-btn:first-child > .style-wmk .btn-toggle:hover:not(:first-child),
-.input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-toggle:hover,
-.input-group-btn:last-child > .style-wmk .btn-toggle:focus,
-.input-group-btn:last-child > .btn-group > .style-wmk .btn-toggle:focus,
-.input-group-btn:first-child > .style-wmk .btn-toggle:focus:not(:first-child),
-.input-group-btn:first-child > .btn-group:not(:first-child) > .style-wmk .btn-toggle:focus,
 .input-group-btn:last-child > .style-wmk .btn-ghost,
 .input-group-btn:last-child > .btn-group > .style-wmk .btn-ghost,
 .input-group-btn:first-child > .style-wmk .btn-ghost:not(:first-child),
@@ -5166,9 +4926,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn > .style-wmk .btn-tertiary,
 .input-group-btn > .style-wmk .btn-disable,
 .input-group-btn > .style-wmk .btn-toggle,
-.input-group-btn > .style-wmk .btn-toggle:active,
-.input-group-btn > .style-wmk .btn-toggle:hover,
-.input-group-btn > .style-wmk .btn-toggle:focus,
 .input-group-btn > .style-wmk .btn-ghost {
   position: relative;
 }
@@ -5180,9 +4937,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn > .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
 .input-group-btn > .style-wmk .btn-disable + .style-wmk .btn-disable,
 .input-group-btn > .style-wmk .btn-toggle + .style-wmk .btn-toggle,
-.input-group-btn > .style-wmk .btn-toggle:active + .style-wmk .btn-toggle:active,
-.input-group-btn > .style-wmk .btn-toggle:hover + .style-wmk .btn-toggle:hover,
-.input-group-btn > .style-wmk .btn-toggle:focus + .style-wmk .btn-toggle:focus,
 .input-group-btn > .style-wmk .btn-ghost + .style-wmk .btn-ghost {
   margin-left: -1px;
 }
@@ -5210,15 +4964,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn > .style-wmk .btn-toggle:hover,
 .input-group-btn > .style-wmk .btn-toggle:focus,
 .input-group-btn > .style-wmk .btn-toggle:active,
-.input-group-btn > .style-wmk .btn-toggle:active:hover,
-.input-group-btn > .style-wmk .btn-toggle:active:focus,
-.input-group-btn > .style-wmk .btn-toggle:active:active,
-.input-group-btn > .style-wmk .btn-toggle:hover:hover,
-.input-group-btn > .style-wmk .btn-toggle:hover:focus,
-.input-group-btn > .style-wmk .btn-toggle:hover:active,
-.input-group-btn > .style-wmk .btn-toggle:focus:hover,
-.input-group-btn > .style-wmk .btn-toggle:focus:focus,
-.input-group-btn > .style-wmk .btn-toggle:focus:active,
 .input-group-btn > .style-wmk .btn-ghost:hover,
 .input-group-btn > .style-wmk .btn-ghost:focus,
 .input-group-btn > .style-wmk .btn-ghost:active {
@@ -5233,9 +4978,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:first-child > .style-wmk .btn-tertiary,
 .input-group-btn:first-child > .style-wmk .btn-disable,
 .input-group-btn:first-child > .style-wmk .btn-toggle,
-.input-group-btn:first-child > .style-wmk .btn-toggle:active,
-.input-group-btn:first-child > .style-wmk .btn-toggle:hover,
-.input-group-btn:first-child > .style-wmk .btn-toggle:focus,
 .input-group-btn:first-child > .style-wmk .btn-ghost {
   margin-right: -1px;
 }
@@ -5248,9 +4990,6 @@ select[multiple].input-group-sm > .input-group-btn > .style-wmk .btn-ghost {
 .input-group-btn:last-child > .style-wmk .btn-tertiary,
 .input-group-btn:last-child > .style-wmk .btn-disable,
 .input-group-btn:last-child > .style-wmk .btn-toggle,
-.input-group-btn:last-child > .style-wmk .btn-toggle:active,
-.input-group-btn:last-child > .style-wmk .btn-toggle:hover,
-.input-group-btn:last-child > .style-wmk .btn-toggle:focus,
 .input-group-btn:last-child > .style-wmk .btn-ghost {
   z-index: 2;
   margin-left: -1px;
@@ -6152,9 +5891,6 @@ a.label:focus {
 .style-wmk .btn-tertiary .label,
 .style-wmk .btn-disable .label,
 .style-wmk .btn-toggle .label,
-.style-wmk .btn-toggle:active .label,
-.style-wmk .btn-toggle:hover .label,
-.style-wmk .btn-toggle:focus .label,
 .style-wmk .btn-ghost .label {
   position: relative;
   top: -1px;
@@ -6226,9 +5962,6 @@ a.label:focus {
 .style-wmk .btn-tertiary .badge,
 .style-wmk .btn-disable .badge,
 .style-wmk .btn-toggle .badge,
-.style-wmk .btn-toggle:active .badge,
-.style-wmk .btn-toggle:hover .badge,
-.style-wmk .btn-toggle:focus .badge,
 .style-wmk .btn-ghost .badge {
   position: relative;
   top: -1px;
@@ -6242,9 +5975,6 @@ a.label:focus {
 .btn-group-xs > .style-wmk .btn-tertiary .badge,
 .btn-group-xs > .style-wmk .btn-disable .badge,
 .btn-group-xs > .style-wmk .btn-toggle .badge,
-.btn-group-xs > .style-wmk .btn-toggle:active .badge,
-.btn-group-xs > .style-wmk .btn-toggle:hover .badge,
-.btn-group-xs > .style-wmk .btn-toggle:focus .badge,
 .btn-group-xs > .style-wmk .btn-ghost .badge {
   top: 0;
   padding: 1px 5px;
@@ -7264,9 +6994,6 @@ button.close {
 .modal-footer .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
 .modal-footer .style-wmk .btn-disable + .style-wmk .btn-disable,
 .modal-footer .style-wmk .btn-toggle + .style-wmk .btn-toggle,
-.modal-footer .style-wmk .btn-toggle:active + .style-wmk .btn-toggle:active,
-.modal-footer .style-wmk .btn-toggle:hover + .style-wmk .btn-toggle:hover,
-.modal-footer .style-wmk .btn-toggle:focus + .style-wmk .btn-toggle:focus,
 .modal-footer .style-wmk .btn-ghost + .style-wmk .btn-ghost {
   margin-left: 5px;
   margin-bottom: 0;
@@ -7279,9 +7006,6 @@ button.close {
 .modal-footer .btn-group .style-wmk .btn-tertiary + .style-wmk .btn-tertiary,
 .modal-footer .btn-group .style-wmk .btn-disable + .style-wmk .btn-disable,
 .modal-footer .btn-group .style-wmk .btn-toggle + .style-wmk .btn-toggle,
-.modal-footer .btn-group .style-wmk .btn-toggle:active + .style-wmk .btn-toggle:active,
-.modal-footer .btn-group .style-wmk .btn-toggle:hover + .style-wmk .btn-toggle:hover,
-.modal-footer .btn-group .style-wmk .btn-toggle:focus + .style-wmk .btn-toggle:focus,
 .modal-footer .btn-group .style-wmk .btn-ghost + .style-wmk .btn-ghost {
   margin-left: -1px;
 }
@@ -7760,9 +7484,6 @@ button.close {
 .carousel-caption .style-wmk .btn-tertiary,
 .carousel-caption .style-wmk .btn-disable,
 .carousel-caption .style-wmk .btn-toggle,
-.carousel-caption .style-wmk .btn-toggle:active,
-.carousel-caption .style-wmk .btn-toggle:hover,
-.carousel-caption .style-wmk .btn-toggle:focus,
 .carousel-caption .style-wmk .btn-ghost {
   text-shadow: none;
 }
@@ -8331,9 +8052,6 @@ button.close {
 .style-wmk .style-wmk .btn-tertiary,
 .style-wmk .style-wmk .btn-disable,
 .style-wmk .style-wmk .btn-toggle,
-.style-wmk .style-wmk .btn-toggle:active,
-.style-wmk .style-wmk .btn-toggle:hover,
-.style-wmk .style-wmk .btn-toggle:focus,
 .style-wmk .style-wmk .btn-ghost {
   border-radius: 4px;
   font-size: 16px;
@@ -8350,9 +8068,6 @@ button.close {
 .style-wmk .style-wmk .btn-tertiary .icon,
 .style-wmk .style-wmk .btn-disable .icon,
 .style-wmk .style-wmk .btn-toggle .icon,
-.style-wmk .style-wmk .btn-toggle:active .icon,
-.style-wmk .style-wmk .btn-toggle:hover .icon,
-.style-wmk .style-wmk .btn-toggle:focus .icon,
 .style-wmk .style-wmk .btn-ghost .icon {
   vertical-align: middle;
   margin-left: -4px;
@@ -9055,218 +8770,333 @@ fieldset[disabled] .style-wmk .btn-toggle.active {
   color: #FFFFFF;
   background-color: #2b3549;
 }
-.style-wmk .btn-toggle:active,
 .style-wmk .btn-toggle:hover,
-.style-wmk .btn-toggle:focus {
+.style-wmk .btn-toggle:focus,
+.style-wmk .btn-toggle:active,
+.style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle.active {
   color: #03a9f4;
   background-color: #FFFFFF;
   border-color: #03a9f4;
-  /* Font,Background,Border */
 }
-.style-wmk .btn-toggle:active:focus,
 .style-wmk .btn-toggle:hover:focus,
 .style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active.focus,
+.style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle:active:focus:focus,
+.style-wmk .btn-toggle.active:focus,
 .style-wmk .btn-toggle:hover.focus,
-.style-wmk .btn-toggle:focus.focus {
+.style-wmk .btn-toggle:focus.focus,
+.style-wmk .btn-toggle:active.focus,
+.style-wmk .btn-toggle:active:focus.focus,
+.style-wmk .btn-toggle.active.focus {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #015276;
 }
-.style-wmk .btn-toggle:active:hover,
 .style-wmk .btn-toggle:hover:hover,
-.style-wmk .btn-toggle:focus:hover {
+.style-wmk .btn-toggle:focus:hover,
+.style-wmk .btn-toggle:active:hover,
+.style-wmk .btn-toggle:active:focus:hover,
+.style-wmk .btn-toggle.active:hover {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #027fb8;
 }
-.style-wmk .btn-toggle:active:active,
 .style-wmk .btn-toggle:hover:active,
 .style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:active,
+.style-wmk .btn-toggle:active:focus:active,
+.style-wmk .btn-toggle.active:active,
 .style-wmk .btn-toggle:hover.active,
 .style-wmk .btn-toggle:focus.active,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active,
+.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:focus.active,
+.style-wmk .btn-toggle.active.active,
 .open > .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus {
+.open > .dropdown-toggle.style-wmk .btn-toggle:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle.active {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #027fb8;
 }
-.style-wmk .btn-toggle:active:active:hover,
 .style-wmk .btn-toggle:hover:active:hover,
 .style-wmk .btn-toggle:focus:active:hover,
-.style-wmk .btn-toggle:active.active:hover,
+.style-wmk .btn-toggle:active:active:hover,
+.style-wmk .btn-toggle:active:focus:active:hover,
+.style-wmk .btn-toggle.active:active:hover,
 .style-wmk .btn-toggle:hover.active:hover,
 .style-wmk .btn-toggle:focus.active:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:hover,
+.style-wmk .btn-toggle:active.active:hover,
+.style-wmk .btn-toggle:active:focus.active:hover,
+.style-wmk .btn-toggle.active.active:hover,
 .open > .dropdown-toggle.style-wmk .btn-toggle:hover:hover,
 .open > .dropdown-toggle.style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:active:active:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:hover,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus:hover,
+.open > .dropdown-toggle.style-wmk .btn-toggle.active:hover,
 .style-wmk .btn-toggle:hover:active:focus,
 .style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:active.active:focus,
+.style-wmk .btn-toggle:active:active:focus,
+.style-wmk .btn-toggle:active:focus:active:focus,
+.style-wmk .btn-toggle.active:active:focus,
 .style-wmk .btn-toggle:hover.active:focus,
 .style-wmk .btn-toggle:focus.active:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle:active.active:focus,
+.style-wmk .btn-toggle:active:focus.active:focus,
+.style-wmk .btn-toggle.active.active:focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle:hover:focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active:active.focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle.active:focus,
 .style-wmk .btn-toggle:hover:active.focus,
 .style-wmk .btn-toggle:focus:active.focus,
-.style-wmk .btn-toggle:active.active.focus,
+.style-wmk .btn-toggle:active:active.focus,
+.style-wmk .btn-toggle:active:focus:active.focus,
+.style-wmk .btn-toggle.active:active.focus,
 .style-wmk .btn-toggle:hover.active.focus,
 .style-wmk .btn-toggle:focus.active.focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active.focus,
+.style-wmk .btn-toggle:active.active.focus,
+.style-wmk .btn-toggle:active:focus.active.focus,
+.style-wmk .btn-toggle.active.active.focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle:hover.focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus.focus {
+.open > .dropdown-toggle.style-wmk .btn-toggle:focus.focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active.focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus.focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle.active.focus {
   color: #03a9f4;
   background-color: #d4d4d4;
   border-color: #015276;
 }
-.style-wmk .btn-toggle:active:active,
 .style-wmk .btn-toggle:hover:active,
 .style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:active,
+.style-wmk .btn-toggle:active:focus:active,
+.style-wmk .btn-toggle.active:active,
 .style-wmk .btn-toggle:hover.active,
 .style-wmk .btn-toggle:focus.active,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active,
+.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:focus.active,
+.style-wmk .btn-toggle.active.active,
 .open > .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus {
+.open > .dropdown-toggle.style-wmk .btn-toggle:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active,
+.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
+.open > .dropdown-toggle.style-wmk .btn-toggle.active {
   background-image: none;
 }
-.style-wmk .btn-toggle:active.disabled:hover,
 .style-wmk .btn-toggle:hover.disabled:hover,
 .style-wmk .btn-toggle:focus.disabled:hover,
-.style-wmk .btn-toggle:active[disabled]:hover,
+.style-wmk .btn-toggle:active.disabled:hover,
+.style-wmk .btn-toggle:active:focus.disabled:hover,
+.style-wmk .btn-toggle.active.disabled:hover,
 .style-wmk .btn-toggle:hover[disabled]:hover,
 .style-wmk .btn-toggle:focus[disabled]:hover,
-fieldset[disabled] .style-wmk .btn-toggle:active:hover,
+.style-wmk .btn-toggle:active[disabled]:hover,
+.style-wmk .btn-toggle:active:focus[disabled]:hover,
+.style-wmk .btn-toggle.active[disabled]:hover,
 fieldset[disabled] .style-wmk .btn-toggle:hover:hover,
 fieldset[disabled] .style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:active.disabled:focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:hover,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus:hover,
+fieldset[disabled] .style-wmk .btn-toggle.active:hover,
 .style-wmk .btn-toggle:hover.disabled:focus,
 .style-wmk .btn-toggle:focus.disabled:focus,
-.style-wmk .btn-toggle:active[disabled]:focus,
+.style-wmk .btn-toggle:active.disabled:focus,
+.style-wmk .btn-toggle:active:focus.disabled:focus,
+.style-wmk .btn-toggle.active.disabled:focus,
 .style-wmk .btn-toggle:hover[disabled]:focus,
 .style-wmk .btn-toggle:focus[disabled]:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle:active[disabled]:focus,
+.style-wmk .btn-toggle:active:focus[disabled]:focus,
+.style-wmk .btn-toggle.active[disabled]:focus,
 fieldset[disabled] .style-wmk .btn-toggle:hover:focus,
 fieldset[disabled] .style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active.disabled.focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus:focus,
+fieldset[disabled] .style-wmk .btn-toggle.active:focus,
 .style-wmk .btn-toggle:hover.disabled.focus,
 .style-wmk .btn-toggle:focus.disabled.focus,
-.style-wmk .btn-toggle:active[disabled].focus,
+.style-wmk .btn-toggle:active.disabled.focus,
+.style-wmk .btn-toggle:active:focus.disabled.focus,
+.style-wmk .btn-toggle.active.disabled.focus,
 .style-wmk .btn-toggle:hover[disabled].focus,
 .style-wmk .btn-toggle:focus[disabled].focus,
-fieldset[disabled] .style-wmk .btn-toggle:active.focus,
+.style-wmk .btn-toggle:active[disabled].focus,
+.style-wmk .btn-toggle:active:focus[disabled].focus,
+.style-wmk .btn-toggle.active[disabled].focus,
 fieldset[disabled] .style-wmk .btn-toggle:hover.focus,
-fieldset[disabled] .style-wmk .btn-toggle:focus.focus {
+fieldset[disabled] .style-wmk .btn-toggle:focus.focus,
+fieldset[disabled] .style-wmk .btn-toggle:active.focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus.focus,
+fieldset[disabled] .style-wmk .btn-toggle.active.focus {
   background-color: #FFFFFF;
   border-color: #03a9f4;
 }
-.style-wmk .btn-toggle:active .badge,
 .style-wmk .btn-toggle:hover .badge,
-.style-wmk .btn-toggle:focus .badge {
+.style-wmk .btn-toggle:focus .badge,
+.style-wmk .btn-toggle:active .badge,
+.style-wmk .btn-toggle:active:focus .badge,
+.style-wmk .btn-toggle.active .badge {
   color: #FFFFFF;
   background-color: #03a9f4;
 }
-.style-wmk .btn-toggle:active:hover,
 .style-wmk .btn-toggle:hover:hover,
 .style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle:active:hover,
+.style-wmk .btn-toggle:active:focus:hover,
+.style-wmk .btn-toggle.active:hover,
 .style-wmk .btn-toggle:hover:focus,
 .style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active:active,
+.style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle:active:focus:focus,
+.style-wmk .btn-toggle.active:focus,
 .style-wmk .btn-toggle:hover:active,
 .style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active:active:focus,
+.style-wmk .btn-toggle:active:active,
+.style-wmk .btn-toggle:active:focus:active,
+.style-wmk .btn-toggle.active:active,
 .style-wmk .btn-toggle:hover:active:focus,
 .style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:active:focus,
+.style-wmk .btn-toggle:active:focus:active:focus,
+.style-wmk .btn-toggle.active:active:focus,
 .style-wmk .btn-toggle:hover.active,
 .style-wmk .btn-toggle:focus.active,
-.open .dropdown-toggle.style-wmk .btn-toggle:active,
+.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:focus.active,
+.style-wmk .btn-toggle.active.active,
 .open .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open .dropdown-toggle.style-wmk .btn-toggle:focus {
+.open .dropdown-toggle.style-wmk .btn-toggle:focus,
+.open .dropdown-toggle.style-wmk .btn-toggle:active,
+.open .dropdown-toggle.style-wmk .btn-toggle:active:focus,
+.open .dropdown-toggle.style-wmk .btn-toggle.active {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #027fb8;
 }
-.style-wmk .btn-toggle:active:active,
 .style-wmk .btn-toggle:hover:active,
 .style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:active,
+.style-wmk .btn-toggle:active:focus:active,
+.style-wmk .btn-toggle.active:active,
 .style-wmk .btn-toggle:hover.active,
 .style-wmk .btn-toggle:focus.active,
-.style-wmk .btn-toggle:active:active:focus,
+.style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active:focus.active,
+.style-wmk .btn-toggle.active.active,
 .style-wmk .btn-toggle:hover:active:focus,
 .style-wmk .btn-toggle:focus:active:focus,
-.open .dropdown-toggle.style-wmk .btn-toggle:active,
+.style-wmk .btn-toggle:active:active:focus,
+.style-wmk .btn-toggle:active:focus:active:focus,
+.style-wmk .btn-toggle.active:active:focus,
 .open .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open .dropdown-toggle.style-wmk .btn-toggle:focus {
+.open .dropdown-toggle.style-wmk .btn-toggle:focus,
+.open .dropdown-toggle.style-wmk .btn-toggle:active,
+.open .dropdown-toggle.style-wmk .btn-toggle:active:focus,
+.open .dropdown-toggle.style-wmk .btn-toggle.active {
   background-image: none;
 }
-.style-wmk .btn-toggle:active.disabled,
 .style-wmk .btn-toggle:hover.disabled,
 .style-wmk .btn-toggle:focus.disabled,
-.style-wmk .btn-toggle:active[disabled],
+.style-wmk .btn-toggle:active.disabled,
+.style-wmk .btn-toggle:active:focus.disabled,
+.style-wmk .btn-toggle.active.disabled,
 .style-wmk .btn-toggle:hover[disabled],
 .style-wmk .btn-toggle:focus[disabled],
-fieldset[disabled] .style-wmk .btn-toggle:active,
+.style-wmk .btn-toggle:active[disabled],
+.style-wmk .btn-toggle:active:focus[disabled],
+.style-wmk .btn-toggle.active[disabled],
 fieldset[disabled] .style-wmk .btn-toggle:hover,
 fieldset[disabled] .style-wmk .btn-toggle:focus,
-.style-wmk .btn-toggle:active.disabled:hover,
+fieldset[disabled] .style-wmk .btn-toggle:active,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus,
+fieldset[disabled] .style-wmk .btn-toggle.active,
 .style-wmk .btn-toggle:hover.disabled:hover,
 .style-wmk .btn-toggle:focus.disabled:hover,
-.style-wmk .btn-toggle:active[disabled]:hover,
+.style-wmk .btn-toggle:active.disabled:hover,
+.style-wmk .btn-toggle:active:focus.disabled:hover,
+.style-wmk .btn-toggle.active.disabled:hover,
 .style-wmk .btn-toggle:hover[disabled]:hover,
 .style-wmk .btn-toggle:focus[disabled]:hover,
-fieldset[disabled] .style-wmk .btn-toggle:active:hover,
+.style-wmk .btn-toggle:active[disabled]:hover,
+.style-wmk .btn-toggle:active:focus[disabled]:hover,
+.style-wmk .btn-toggle.active[disabled]:hover,
 fieldset[disabled] .style-wmk .btn-toggle:hover:hover,
 fieldset[disabled] .style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:active.disabled:focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:hover,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus:hover,
+fieldset[disabled] .style-wmk .btn-toggle.active:hover,
 .style-wmk .btn-toggle:hover.disabled:focus,
 .style-wmk .btn-toggle:focus.disabled:focus,
-.style-wmk .btn-toggle:active[disabled]:focus,
+.style-wmk .btn-toggle:active.disabled:focus,
+.style-wmk .btn-toggle:active:focus.disabled:focus,
+.style-wmk .btn-toggle.active.disabled:focus,
 .style-wmk .btn-toggle:hover[disabled]:focus,
 .style-wmk .btn-toggle:focus[disabled]:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus,
+.style-wmk .btn-toggle:active[disabled]:focus,
+.style-wmk .btn-toggle:active:focus[disabled]:focus,
+.style-wmk .btn-toggle.active[disabled]:focus,
 fieldset[disabled] .style-wmk .btn-toggle:hover:focus,
 fieldset[disabled] .style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active.disabled:active:focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus:focus,
+fieldset[disabled] .style-wmk .btn-toggle.active:focus,
 .style-wmk .btn-toggle:hover.disabled:active:focus,
 .style-wmk .btn-toggle:focus.disabled:active:focus,
-.style-wmk .btn-toggle:active[disabled]:active:focus,
+.style-wmk .btn-toggle:active.disabled:active:focus,
+.style-wmk .btn-toggle:active:focus.disabled:active:focus,
+.style-wmk .btn-toggle.active.disabled:active:focus,
 .style-wmk .btn-toggle:hover[disabled]:active:focus,
 .style-wmk .btn-toggle:focus[disabled]:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:active:focus,
+.style-wmk .btn-toggle:active[disabled]:active:focus,
+.style-wmk .btn-toggle:active:focus[disabled]:active:focus,
+.style-wmk .btn-toggle.active[disabled]:active:focus,
 fieldset[disabled] .style-wmk .btn-toggle:hover:active:focus,
 fieldset[disabled] .style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:active.disabled:active,
+fieldset[disabled] .style-wmk .btn-toggle:active:active:focus,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus:active:focus,
+fieldset[disabled] .style-wmk .btn-toggle.active:active:focus,
 .style-wmk .btn-toggle:hover.disabled:active,
 .style-wmk .btn-toggle:focus.disabled:active,
-.style-wmk .btn-toggle:active[disabled]:active,
+.style-wmk .btn-toggle:active.disabled:active,
+.style-wmk .btn-toggle:active:focus.disabled:active,
+.style-wmk .btn-toggle.active.disabled:active,
 .style-wmk .btn-toggle:hover[disabled]:active,
 .style-wmk .btn-toggle:focus[disabled]:active,
-fieldset[disabled] .style-wmk .btn-toggle:active:active,
+.style-wmk .btn-toggle:active[disabled]:active,
+.style-wmk .btn-toggle:active:focus[disabled]:active,
+.style-wmk .btn-toggle.active[disabled]:active,
 fieldset[disabled] .style-wmk .btn-toggle:hover:active,
 fieldset[disabled] .style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active.disabled.active,
+fieldset[disabled] .style-wmk .btn-toggle:active:active,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus:active,
+fieldset[disabled] .style-wmk .btn-toggle.active:active,
 .style-wmk .btn-toggle:hover.disabled.active,
 .style-wmk .btn-toggle:focus.disabled.active,
-.style-wmk .btn-toggle:active[disabled].active,
+.style-wmk .btn-toggle:active.disabled.active,
+.style-wmk .btn-toggle:active:focus.disabled.active,
+.style-wmk .btn-toggle.active.disabled.active,
 .style-wmk .btn-toggle:hover[disabled].active,
 .style-wmk .btn-toggle:focus[disabled].active,
-fieldset[disabled] .style-wmk .btn-toggle:active.active,
+.style-wmk .btn-toggle:active[disabled].active,
+.style-wmk .btn-toggle:active:focus[disabled].active,
+.style-wmk .btn-toggle.active[disabled].active,
 fieldset[disabled] .style-wmk .btn-toggle:hover.active,
-fieldset[disabled] .style-wmk .btn-toggle:focus.active {
+fieldset[disabled] .style-wmk .btn-toggle:focus.active,
+fieldset[disabled] .style-wmk .btn-toggle:active.active,
+fieldset[disabled] .style-wmk .btn-toggle:active:focus.active,
+fieldset[disabled] .style-wmk .btn-toggle.active.active {
   background-color: #FFFFFF;
   border-color: #03a9f4;
 }
-.style-wmk .btn-toggle:active .badge,
 .style-wmk .btn-toggle:hover .badge,
-.style-wmk .btn-toggle:focus .badge {
+.style-wmk .btn-toggle:focus .badge,
+.style-wmk .btn-toggle:active .badge,
+.style-wmk .btn-toggle:active:focus .badge,
+.style-wmk .btn-toggle.active .badge {
   color: #FFFFFF;
   background-color: #03a9f4;
 }
