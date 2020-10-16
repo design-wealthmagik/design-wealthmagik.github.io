@@ -8001,6 +8001,7 @@ button.close {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
   height: 70px;
+  z-index: 9;
 }
 .style-wmk .navbar .navbar-brand {
   padding-top: 11px;
@@ -9110,11 +9111,11 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
 }
 .template-1-region {
   /*---Responsive (Bootstrap Standard)---*/
-  /* Only Desktop and Large Desktop (LG) */
-  /* Only Small Desktop devices (MD) */
-  /* Only Tablet devices (SM) */
-  /* Only Mobile Lanscape (XS) */
-  /* Only Mobile Portrait (XS) */
+  /* Desktop and Large Desktop */
+  /* Small Desktop */
+  /* Tablet devices */
+  /* Mobile Lanscape */
+  /* Mobile Portrait */
 }
 @media only screen and (min-width: 1280px) {
   .template-1-region .container {
@@ -9148,5 +9149,144 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   }
   .template-1-region .navbar {
     margin-bottom: 0px;
+  }
+}
+.template-2-regions .navbar {
+  margin-bottom: 0px;
+}
+.template-2-regions .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.template-2-regions .col-xs-1,
+.template-2-regions .col-sm-1,
+.template-2-regions .col-md-1,
+.template-2-regions .col-lg-1,
+.template-2-regions .col-xs-2,
+.template-2-regions .col-sm-2,
+.template-2-regions .col-md-2,
+.template-2-regions .col-lg-2,
+.template-2-regions .col-xs-3,
+.template-2-regions .col-sm-3,
+.template-2-regions .col-md-3,
+.template-2-regions .col-lg-3,
+.template-2-regions .col-xs-4,
+.template-2-regions .col-sm-4,
+.template-2-regions .col-md-4,
+.template-2-regions .col-lg-4,
+.template-2-regions .col-xs-5,
+.template-2-regions .col-sm-5,
+.template-2-regions .col-md-5,
+.template-2-regions .col-lg-5,
+.template-2-regions .col-xs-6,
+.template-2-regions .col-sm-6,
+.template-2-regions .col-md-6,
+.template-2-regions .col-lg-6,
+.template-2-regions .col-xs-7,
+.template-2-regions .col-sm-7,
+.template-2-regions .col-md-7,
+.template-2-regions .col-lg-7,
+.template-2-regions .col-xs-8,
+.template-2-regions .col-sm-8,
+.template-2-regions .col-md-8,
+.template-2-regions .col-lg-8,
+.template-2-regions .col-xs-9,
+.template-2-regions .col-sm-9,
+.template-2-regions .col-md-9,
+.template-2-regions .col-lg-9,
+.template-2-regions .col-xs-10,
+.template-2-regions .col-sm-10,
+.template-2-regions .col-md-10,
+.template-2-regions .col-lg-10,
+.template-2-regions .col-xs-11,
+.template-2-regions .col-sm-11,
+.template-2-regions .col-md-11,
+.template-2-regions .col-lg-11,
+.template-2-regions .col-xs-12,
+.template-2-regions .col-sm-12,
+.template-2-regions .col-md-12,
+.template-2-regions .col-lg-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.template-2-regions .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.template-2-regions .body-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.template-2-regions .body-container .menubar {
+  display: block;
+  min-width: 220px;
+  background: #FFFFFF;
+  height: 100vh;
+  position: sticky;
+  overflow: auto;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding-top: 40px;
+  box-shadow: 0px 1px 3px rgba(0, 55, 136, 0.12);
+}
+.template-2-regions .body-container .menubar h3 {
+  margin-left: 30px;
+}
+.template-2-regions .body-container .menubar .nav-pills li a {
+  padding: 7px 30px;
+  border-radius: 0px;
+}
+.template-2-regions .body-container .menubar .nav-pills li.active a {
+  background: none;
+  font-weight: 500;
+}
+.template-2-regions .body-container .content {
+  display: block;
+  padding-top: 40px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media only screen and (min-width: 1480px) {
+  .template-2-regions .body-container .container {
+    width: 1240px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1479px) {
+  .template-2-regions .body-container .container {
+    width: 1020px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .template-2-regions .body-container .container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .template-2-regions .body-container .menubar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .template-2-regions .body-container .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .template-2-regions .body-container .menubar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .template-2-regions .body-container .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .template-2-regions .body-container .menubar {
+    display: none;
   }
 }
