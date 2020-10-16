@@ -8925,21 +8925,30 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   display: block;
 }
 .style-wmk .panel-default {
-  padding: 30px;
+  padding: 20px;
   height: 100%;
   width: 100%;
+  border: none;
   border-radius: 8px;
   background: #FFFFFF;
   /* Shadow 2 */
   box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
 }
+.style-wmk .panel-default h3,
+.style-wmk .panel-default h1 {
+  margin-top: 0px;
+}
 .style-wmk .panel-body {
   padding: 0px;
 }
+.style-wmk .panel-body p {
+  margin: 0px;
+}
 .style-wmk .panel-popup {
-  padding: 30px;
+  padding: 20px;
   height: 100%;
   width: 100%;
+  border: none;
   border-radius: 8px;
   background: #FFFFFF;
   /* Shadow 3 */
