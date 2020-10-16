@@ -60,7 +60,8 @@ To compile:
   }
 
   .template-section{
-    padding-bottom: 50px;
+    display: block;
+    padding-bottom: 60px;
   }
 
   body{
@@ -171,6 +172,28 @@ To compile:
     outline:none;
   }
 
+
+  .btn-fab{
+    width:56px;
+    height:56px;
+    border-radius:100%;
+    background: @color-wmk-theme-primary;
+    border:none;
+    outline:none;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+  }
+
+  .btn-next{
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background: @color-wmk-white;
+    border:none;
+    outline:none;
+    box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+  }
+
+
 form{
   input[type=text] {
     width: 143px;
@@ -194,46 +217,30 @@ form{
 }
 
 
-    .card-general{
-      margin-bottom: 20px;
-      height: 230px;
-      width: 345px;
+
+    .panel-default{
+      padding: 30px;
+      height: 100%;
+      width: 100%;
       border-radius: 8px;
       background: @color-wmk-white;
       /* Shadow 2 */
       box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
-      border-radius: 8px;
+
     }
 
-    .card-popup{
-      margin-bottom: 20px;
-      margin-left: 40px;
-      height: 230px;
-      width: 345px;
+    .panel-body{
+      padding: 0px;
+    }
+
+    .panel-popup{
+      padding: 30px;
+      height: 100%;
+      width: 100%;
       border-radius: 8px;
       background: @color-wmk-white;
       /* Shadow 3 */
       box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.1), 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
-  }
-
-    .btn-fab{
-      width:56px;
-      height:56px;
-      border-radius:100%;
-      background: @color-wmk-theme-primary;
-      border:none;
-      outline:none;
-      box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
-    }
-
-    .btn-next{
-      width:40px;
-      height:40px;
-      border-radius:100%;
-      background: @color-wmk-white;
-      border:none;
-      outline:none;
-      box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
     }
 
 }
