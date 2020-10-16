@@ -8001,6 +8001,7 @@ button.close {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
   height: 70px;
+  z-index: 9;
 }
 .style-wmk .navbar .navbar-brand {
   padding-top: 11px;
@@ -8773,332 +8774,101 @@ fieldset[disabled] .style-wmk .btn-toggle.active {
   color: #FFFFFF;
   background-color: #2b3549;
 }
-.style-wmk .btn-toggle:hover,
-.style-wmk .btn-toggle:focus,
-.style-wmk .btn-toggle:active,
-.style-wmk .btn-toggle:active:focus,
 .style-wmk .btn-toggle.active {
   color: #03a9f4;
   background-color: #FFFFFF;
   border-color: #03a9f4;
+  /* Font,Background,Border */
 }
-.style-wmk .btn-toggle:hover:focus,
-.style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active:focus,
-.style-wmk .btn-toggle:active:focus:focus,
 .style-wmk .btn-toggle.active:focus,
-.style-wmk .btn-toggle:hover.focus,
-.style-wmk .btn-toggle:focus.focus,
-.style-wmk .btn-toggle:active.focus,
-.style-wmk .btn-toggle:active:focus.focus,
 .style-wmk .btn-toggle.active.focus {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #015276;
 }
-.style-wmk .btn-toggle:hover:hover,
-.style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:active:hover,
-.style-wmk .btn-toggle:active:focus:hover,
 .style-wmk .btn-toggle.active:hover {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #027fb8;
 }
-.style-wmk .btn-toggle:hover:active,
-.style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active:active,
-.style-wmk .btn-toggle:active:focus:active,
 .style-wmk .btn-toggle.active:active,
-.style-wmk .btn-toggle:hover.active,
-.style-wmk .btn-toggle:focus.active,
-.style-wmk .btn-toggle:active.active,
-.style-wmk .btn-toggle:active:focus.active,
 .style-wmk .btn-toggle.active.active,
-.open > .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle.active {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #027fb8;
 }
-.style-wmk .btn-toggle:hover:active:hover,
-.style-wmk .btn-toggle:focus:active:hover,
-.style-wmk .btn-toggle:active:active:hover,
-.style-wmk .btn-toggle:active:focus:active:hover,
 .style-wmk .btn-toggle.active:active:hover,
-.style-wmk .btn-toggle:hover.active:hover,
-.style-wmk .btn-toggle:focus.active:hover,
-.style-wmk .btn-toggle:active.active:hover,
-.style-wmk .btn-toggle:active:focus.active:hover,
 .style-wmk .btn-toggle.active.active:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:hover:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus:hover,
 .open > .dropdown-toggle.style-wmk .btn-toggle.active:hover,
-.style-wmk .btn-toggle:hover:active:focus,
-.style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:active:active:focus,
-.style-wmk .btn-toggle:active:focus:active:focus,
 .style-wmk .btn-toggle.active:active:focus,
-.style-wmk .btn-toggle:hover.active:focus,
-.style-wmk .btn-toggle:focus.active:focus,
-.style-wmk .btn-toggle:active.active:focus,
-.style-wmk .btn-toggle:active:focus.active:focus,
 .style-wmk .btn-toggle.active.active:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:hover:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus:focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle.active:focus,
-.style-wmk .btn-toggle:hover:active.focus,
-.style-wmk .btn-toggle:focus:active.focus,
-.style-wmk .btn-toggle:active:active.focus,
-.style-wmk .btn-toggle:active:focus:active.focus,
 .style-wmk .btn-toggle.active:active.focus,
-.style-wmk .btn-toggle:hover.active.focus,
-.style-wmk .btn-toggle:focus.active.focus,
-.style-wmk .btn-toggle:active.active.focus,
-.style-wmk .btn-toggle:active:focus.active.focus,
 .style-wmk .btn-toggle.active.active.focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:hover.focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus.focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active.focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus.focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle.active.focus {
   color: #03a9f4;
   background-color: #d4d4d4;
   border-color: #015276;
 }
-.style-wmk .btn-toggle:hover:active,
-.style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active:active,
-.style-wmk .btn-toggle:active:focus:active,
 .style-wmk .btn-toggle.active:active,
-.style-wmk .btn-toggle:hover.active,
-.style-wmk .btn-toggle:focus.active,
-.style-wmk .btn-toggle:active.active,
-.style-wmk .btn-toggle:active:focus.active,
 .style-wmk .btn-toggle.active.active,
-.open > .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open > .dropdown-toggle.style-wmk .btn-toggle:focus,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active,
-.open > .dropdown-toggle.style-wmk .btn-toggle:active:focus,
 .open > .dropdown-toggle.style-wmk .btn-toggle.active {
   background-image: none;
 }
-.style-wmk .btn-toggle:hover.disabled:hover,
-.style-wmk .btn-toggle:focus.disabled:hover,
-.style-wmk .btn-toggle:active.disabled:hover,
-.style-wmk .btn-toggle:active:focus.disabled:hover,
 .style-wmk .btn-toggle.active.disabled:hover,
-.style-wmk .btn-toggle:hover[disabled]:hover,
-.style-wmk .btn-toggle:focus[disabled]:hover,
-.style-wmk .btn-toggle:active[disabled]:hover,
-.style-wmk .btn-toggle:active:focus[disabled]:hover,
 .style-wmk .btn-toggle.active[disabled]:hover,
-fieldset[disabled] .style-wmk .btn-toggle:hover:hover,
-fieldset[disabled] .style-wmk .btn-toggle:focus:hover,
-fieldset[disabled] .style-wmk .btn-toggle:active:hover,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus:hover,
 fieldset[disabled] .style-wmk .btn-toggle.active:hover,
-.style-wmk .btn-toggle:hover.disabled:focus,
-.style-wmk .btn-toggle:focus.disabled:focus,
-.style-wmk .btn-toggle:active.disabled:focus,
-.style-wmk .btn-toggle:active:focus.disabled:focus,
 .style-wmk .btn-toggle.active.disabled:focus,
-.style-wmk .btn-toggle:hover[disabled]:focus,
-.style-wmk .btn-toggle:focus[disabled]:focus,
-.style-wmk .btn-toggle:active[disabled]:focus,
-.style-wmk .btn-toggle:active:focus[disabled]:focus,
 .style-wmk .btn-toggle.active[disabled]:focus,
-fieldset[disabled] .style-wmk .btn-toggle:hover:focus,
-fieldset[disabled] .style-wmk .btn-toggle:focus:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus:focus,
 fieldset[disabled] .style-wmk .btn-toggle.active:focus,
-.style-wmk .btn-toggle:hover.disabled.focus,
-.style-wmk .btn-toggle:focus.disabled.focus,
-.style-wmk .btn-toggle:active.disabled.focus,
-.style-wmk .btn-toggle:active:focus.disabled.focus,
 .style-wmk .btn-toggle.active.disabled.focus,
-.style-wmk .btn-toggle:hover[disabled].focus,
-.style-wmk .btn-toggle:focus[disabled].focus,
-.style-wmk .btn-toggle:active[disabled].focus,
-.style-wmk .btn-toggle:active:focus[disabled].focus,
 .style-wmk .btn-toggle.active[disabled].focus,
-fieldset[disabled] .style-wmk .btn-toggle:hover.focus,
-fieldset[disabled] .style-wmk .btn-toggle:focus.focus,
-fieldset[disabled] .style-wmk .btn-toggle:active.focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus.focus,
 fieldset[disabled] .style-wmk .btn-toggle.active.focus {
   background-color: #FFFFFF;
   border-color: #03a9f4;
 }
-.style-wmk .btn-toggle:hover .badge,
-.style-wmk .btn-toggle:focus .badge,
-.style-wmk .btn-toggle:active .badge,
-.style-wmk .btn-toggle:active:focus .badge,
 .style-wmk .btn-toggle.active .badge {
   color: #FFFFFF;
   background-color: #03a9f4;
 }
-.style-wmk .btn-toggle:hover:hover,
-.style-wmk .btn-toggle:focus:hover,
-.style-wmk .btn-toggle:active:hover,
-.style-wmk .btn-toggle:active:focus:hover,
 .style-wmk .btn-toggle.active:hover,
-.style-wmk .btn-toggle:hover:focus,
-.style-wmk .btn-toggle:focus:focus,
-.style-wmk .btn-toggle:active:focus,
-.style-wmk .btn-toggle:active:focus:focus,
 .style-wmk .btn-toggle.active:focus,
-.style-wmk .btn-toggle:hover:active,
-.style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active:active,
-.style-wmk .btn-toggle:active:focus:active,
 .style-wmk .btn-toggle.active:active,
-.style-wmk .btn-toggle:hover:active:focus,
-.style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:active:active:focus,
-.style-wmk .btn-toggle:active:focus:active:focus,
 .style-wmk .btn-toggle.active:active:focus,
-.style-wmk .btn-toggle:hover.active,
-.style-wmk .btn-toggle:focus.active,
-.style-wmk .btn-toggle:active.active,
-.style-wmk .btn-toggle:active:focus.active,
 .style-wmk .btn-toggle.active.active,
-.open .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open .dropdown-toggle.style-wmk .btn-toggle:focus,
-.open .dropdown-toggle.style-wmk .btn-toggle:active,
-.open .dropdown-toggle.style-wmk .btn-toggle:active:focus,
 .open .dropdown-toggle.style-wmk .btn-toggle.active {
   color: #03a9f4;
   background-color: #e6e6e6;
   border-color: #027fb8;
 }
-.style-wmk .btn-toggle:hover:active,
-.style-wmk .btn-toggle:focus:active,
-.style-wmk .btn-toggle:active:active,
-.style-wmk .btn-toggle:active:focus:active,
 .style-wmk .btn-toggle.active:active,
-.style-wmk .btn-toggle:hover.active,
-.style-wmk .btn-toggle:focus.active,
-.style-wmk .btn-toggle:active.active,
-.style-wmk .btn-toggle:active:focus.active,
 .style-wmk .btn-toggle.active.active,
-.style-wmk .btn-toggle:hover:active:focus,
-.style-wmk .btn-toggle:focus:active:focus,
-.style-wmk .btn-toggle:active:active:focus,
-.style-wmk .btn-toggle:active:focus:active:focus,
 .style-wmk .btn-toggle.active:active:focus,
-.open .dropdown-toggle.style-wmk .btn-toggle:hover,
-.open .dropdown-toggle.style-wmk .btn-toggle:focus,
-.open .dropdown-toggle.style-wmk .btn-toggle:active,
-.open .dropdown-toggle.style-wmk .btn-toggle:active:focus,
 .open .dropdown-toggle.style-wmk .btn-toggle.active {
   background-image: none;
 }
-.style-wmk .btn-toggle:hover.disabled,
-.style-wmk .btn-toggle:focus.disabled,
-.style-wmk .btn-toggle:active.disabled,
-.style-wmk .btn-toggle:active:focus.disabled,
 .style-wmk .btn-toggle.active.disabled,
-.style-wmk .btn-toggle:hover[disabled],
-.style-wmk .btn-toggle:focus[disabled],
-.style-wmk .btn-toggle:active[disabled],
-.style-wmk .btn-toggle:active:focus[disabled],
 .style-wmk .btn-toggle.active[disabled],
-fieldset[disabled] .style-wmk .btn-toggle:hover,
-fieldset[disabled] .style-wmk .btn-toggle:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus,
 fieldset[disabled] .style-wmk .btn-toggle.active,
-.style-wmk .btn-toggle:hover.disabled:hover,
-.style-wmk .btn-toggle:focus.disabled:hover,
-.style-wmk .btn-toggle:active.disabled:hover,
-.style-wmk .btn-toggle:active:focus.disabled:hover,
 .style-wmk .btn-toggle.active.disabled:hover,
-.style-wmk .btn-toggle:hover[disabled]:hover,
-.style-wmk .btn-toggle:focus[disabled]:hover,
-.style-wmk .btn-toggle:active[disabled]:hover,
-.style-wmk .btn-toggle:active:focus[disabled]:hover,
 .style-wmk .btn-toggle.active[disabled]:hover,
-fieldset[disabled] .style-wmk .btn-toggle:hover:hover,
-fieldset[disabled] .style-wmk .btn-toggle:focus:hover,
-fieldset[disabled] .style-wmk .btn-toggle:active:hover,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus:hover,
 fieldset[disabled] .style-wmk .btn-toggle.active:hover,
-.style-wmk .btn-toggle:hover.disabled:focus,
-.style-wmk .btn-toggle:focus.disabled:focus,
-.style-wmk .btn-toggle:active.disabled:focus,
-.style-wmk .btn-toggle:active:focus.disabled:focus,
 .style-wmk .btn-toggle.active.disabled:focus,
-.style-wmk .btn-toggle:hover[disabled]:focus,
-.style-wmk .btn-toggle:focus[disabled]:focus,
-.style-wmk .btn-toggle:active[disabled]:focus,
-.style-wmk .btn-toggle:active:focus[disabled]:focus,
 .style-wmk .btn-toggle.active[disabled]:focus,
-fieldset[disabled] .style-wmk .btn-toggle:hover:focus,
-fieldset[disabled] .style-wmk .btn-toggle:focus:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus:focus,
 fieldset[disabled] .style-wmk .btn-toggle.active:focus,
-.style-wmk .btn-toggle:hover.disabled:active:focus,
-.style-wmk .btn-toggle:focus.disabled:active:focus,
-.style-wmk .btn-toggle:active.disabled:active:focus,
-.style-wmk .btn-toggle:active:focus.disabled:active:focus,
 .style-wmk .btn-toggle.active.disabled:active:focus,
-.style-wmk .btn-toggle:hover[disabled]:active:focus,
-.style-wmk .btn-toggle:focus[disabled]:active:focus,
-.style-wmk .btn-toggle:active[disabled]:active:focus,
-.style-wmk .btn-toggle:active:focus[disabled]:active:focus,
 .style-wmk .btn-toggle.active[disabled]:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:hover:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:focus:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:active:focus,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus:active:focus,
 fieldset[disabled] .style-wmk .btn-toggle.active:active:focus,
-.style-wmk .btn-toggle:hover.disabled:active,
-.style-wmk .btn-toggle:focus.disabled:active,
-.style-wmk .btn-toggle:active.disabled:active,
-.style-wmk .btn-toggle:active:focus.disabled:active,
 .style-wmk .btn-toggle.active.disabled:active,
-.style-wmk .btn-toggle:hover[disabled]:active,
-.style-wmk .btn-toggle:focus[disabled]:active,
-.style-wmk .btn-toggle:active[disabled]:active,
-.style-wmk .btn-toggle:active:focus[disabled]:active,
 .style-wmk .btn-toggle.active[disabled]:active,
-fieldset[disabled] .style-wmk .btn-toggle:hover:active,
-fieldset[disabled] .style-wmk .btn-toggle:focus:active,
-fieldset[disabled] .style-wmk .btn-toggle:active:active,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus:active,
 fieldset[disabled] .style-wmk .btn-toggle.active:active,
-.style-wmk .btn-toggle:hover.disabled.active,
-.style-wmk .btn-toggle:focus.disabled.active,
-.style-wmk .btn-toggle:active.disabled.active,
-.style-wmk .btn-toggle:active:focus.disabled.active,
 .style-wmk .btn-toggle.active.disabled.active,
-.style-wmk .btn-toggle:hover[disabled].active,
-.style-wmk .btn-toggle:focus[disabled].active,
-.style-wmk .btn-toggle:active[disabled].active,
-.style-wmk .btn-toggle:active:focus[disabled].active,
 .style-wmk .btn-toggle.active[disabled].active,
-fieldset[disabled] .style-wmk .btn-toggle:hover.active,
-fieldset[disabled] .style-wmk .btn-toggle:focus.active,
-fieldset[disabled] .style-wmk .btn-toggle:active.active,
-fieldset[disabled] .style-wmk .btn-toggle:active:focus.active,
 fieldset[disabled] .style-wmk .btn-toggle.active.active {
   background-color: #FFFFFF;
   border-color: #03a9f4;
 }
-.style-wmk .btn-toggle:hover .badge,
-.style-wmk .btn-toggle:focus .badge,
-.style-wmk .btn-toggle:active .badge,
-.style-wmk .btn-toggle:active:focus .badge,
 .style-wmk .btn-toggle.active .badge {
   color: #FFFFFF;
   background-color: #03a9f4;
@@ -9108,13 +8878,77 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   border: 0px;
   /* Font,Background,Border */
 }
+.style-wmk .btn-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background: #FFFFFF;
+  border: 2px solid #e2e5eb;
+  outline: none;
+}
+.style-wmk form input[type=text] {
+  width: 143px;
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-family: 'Sarabun', sans-serif;
+  color: #758093;
+  border: 1px solid #e2e5eb;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.style-wmk form label {
+  font-family: 'Sarabun', sans-serif;
+  color: #758093;
+  display: block;
+}
+.style-wmk .card-general {
+  margin-bottom: 20px;
+  height: 230px;
+  width: 345px;
+  background: #FFFFFF;
+  /* Shadow 2 */
+  box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+  border-radius: 8px;
+}
+.style-wmk .card-popup {
+  margin-bottom: 20px;
+  margin-left: 40px;
+  height: 230px;
+  width: 345px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  /* Shadow 3 */
+  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.1), 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
+}
+.style-wmk .btn-fab {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  background: #03a9f4;
+  border: none;
+  outline: none;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+}
+.style-wmk .btn-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+  box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+}
 .template-1-region {
   /*---Responsive (Bootstrap Standard)---*/
-  /* Only Desktop and Large Desktop (LG) */
-  /* Only Small Desktop devices (MD) */
-  /* Only Tablet devices (SM) */
-  /* Only Mobile Lanscape (XS) */
-  /* Only Mobile Portrait (XS) */
+  /* Desktop and Large Desktop */
+  /* Small Desktop */
+  /* Tablet devices */
+  /* Mobile Lanscape */
+  /* Mobile Portrait */
 }
 @media only screen and (min-width: 1280px) {
   .template-1-region .container {
@@ -9148,5 +8982,144 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   }
   .template-1-region .navbar {
     margin-bottom: 0px;
+  }
+}
+.template-2-regions .navbar {
+  margin-bottom: 0px;
+}
+.template-2-regions .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.template-2-regions .col-xs-1,
+.template-2-regions .col-sm-1,
+.template-2-regions .col-md-1,
+.template-2-regions .col-lg-1,
+.template-2-regions .col-xs-2,
+.template-2-regions .col-sm-2,
+.template-2-regions .col-md-2,
+.template-2-regions .col-lg-2,
+.template-2-regions .col-xs-3,
+.template-2-regions .col-sm-3,
+.template-2-regions .col-md-3,
+.template-2-regions .col-lg-3,
+.template-2-regions .col-xs-4,
+.template-2-regions .col-sm-4,
+.template-2-regions .col-md-4,
+.template-2-regions .col-lg-4,
+.template-2-regions .col-xs-5,
+.template-2-regions .col-sm-5,
+.template-2-regions .col-md-5,
+.template-2-regions .col-lg-5,
+.template-2-regions .col-xs-6,
+.template-2-regions .col-sm-6,
+.template-2-regions .col-md-6,
+.template-2-regions .col-lg-6,
+.template-2-regions .col-xs-7,
+.template-2-regions .col-sm-7,
+.template-2-regions .col-md-7,
+.template-2-regions .col-lg-7,
+.template-2-regions .col-xs-8,
+.template-2-regions .col-sm-8,
+.template-2-regions .col-md-8,
+.template-2-regions .col-lg-8,
+.template-2-regions .col-xs-9,
+.template-2-regions .col-sm-9,
+.template-2-regions .col-md-9,
+.template-2-regions .col-lg-9,
+.template-2-regions .col-xs-10,
+.template-2-regions .col-sm-10,
+.template-2-regions .col-md-10,
+.template-2-regions .col-lg-10,
+.template-2-regions .col-xs-11,
+.template-2-regions .col-sm-11,
+.template-2-regions .col-md-11,
+.template-2-regions .col-lg-11,
+.template-2-regions .col-xs-12,
+.template-2-regions .col-sm-12,
+.template-2-regions .col-md-12,
+.template-2-regions .col-lg-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.template-2-regions .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.template-2-regions .body-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.template-2-regions .body-container .menubar {
+  display: block;
+  min-width: 220px;
+  background: #FFFFFF;
+  height: 100vh;
+  position: sticky;
+  overflow: auto;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding-top: 40px;
+  box-shadow: 0px 1px 3px rgba(0, 55, 136, 0.12);
+}
+.template-2-regions .body-container .menubar h3 {
+  margin-left: 30px;
+}
+.template-2-regions .body-container .menubar .nav-pills li a {
+  padding: 7px 30px;
+  border-radius: 0px;
+}
+.template-2-regions .body-container .menubar .nav-pills li.active a {
+  background: none;
+  font-weight: 500;
+}
+.template-2-regions .body-container .content {
+  display: block;
+  padding-top: 40px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media only screen and (min-width: 1480px) {
+  .template-2-regions .body-container .container {
+    width: 1240px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1479px) {
+  .template-2-regions .body-container .container {
+    width: 1020px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .template-2-regions .body-container .container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .template-2-regions .body-container .menubar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .template-2-regions .body-container .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .template-2-regions .body-container .menubar {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .template-2-regions .body-container .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .template-2-regions .body-container .menubar {
+    display: none;
   }
 }

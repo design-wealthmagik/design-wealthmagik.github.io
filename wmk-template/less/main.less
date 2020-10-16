@@ -34,6 +34,7 @@ To compile:
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     border-radius: 0px;
     height: 70px;
+    z-index: 9;
     .navbar-brand{
       padding-top: 11px;
     }
@@ -126,8 +127,6 @@ To compile:
     /* Font,Background,Border */
   }
 
-
-
   .btn-secondary-black {
     &:extend(.btn all);
     .button-variant(@color-wmk-black, @color-wmk-white, @color-wmk-grey-1);
@@ -151,18 +150,10 @@ To compile:
     /* Font,Background,Border */
   }
 
-
-  .btn-toggle:hover,
-  .btn-toggle:focus,
-  .btn-toggle:active,
-  .btn-toggle:active:focus,
   .btn-toggle.active {
     .button-variant(@color-wmk-theme-primary, @color-wmk-white, @color-wmk-theme-primary);
-}
-
-
-
-
+    /* Font,Background,Border */
+  }
 
   .btn-ghost {
     &:extend(.btn all);
@@ -171,36 +162,109 @@ To compile:
     /* Font,Background,Border */
   }
 
+  .btn-icon{
+    width:40px;
+    height:40px;
+    border-radius: 6px;
+    background: @color-wmk-white;
+    border:2px solid @color-wmk-grey-1;
+    outline:none;
+  }
+
+form{
+  input[type=text] {
+    width: 143px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    font-family: @font-wmk-primary;
+    color: @color-wmk-grey-3;
+    border: 1px solid @color-wmk-grey-1;
+    background: @color-wmk-white;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  label{
+    font-family: @font-wmk-primary;
+    color: @color-wmk-grey-3;
+    display: block;
+  }
 }
 
 
+    .card-general{
+      margin-bottom: 20px;
+      height: 230px;
+      width: 345px;
+      border-radius: 8px;
+      background: @color-wmk-white;
+      /* Shadow 2 */
+      box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+      border-radius: 8px;
+    }
+
+    .card-popup{
+      margin-bottom: 20px;
+      margin-left: 40px;
+      height: 230px;
+      width: 345px;
+      border-radius: 8px;
+      background: @color-wmk-white;
+      /* Shadow 3 */
+      box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.1), 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
+  }
+
+    .btn-fab{
+      width:56px;
+      height:56px;
+      border-radius:100%;
+      background: @color-wmk-theme-primary;
+      border:none;
+      outline:none;
+      box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+    }
+
+    .btn-next{
+      width:40px;
+      height:40px;
+      border-radius:100%;
+      background: @color-wmk-white;
+      border:none;
+      outline:none;
+      box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
+    }
+
+}
+
 .template-1-region{
   /*---Responsive (Bootstrap Standard)---*/
-  /* Only Desktop and Large Desktop (LG) */
+  /* Desktop and Large Desktop */
   @media only screen and (min-width: 1280px) {
     .container{
       width: 1230px;
     }
   }
-  /* Only Small Desktop devices (MD) */
+  /* Small Desktop */
   @media only screen and (min-width: 922px) and (max-width: 1279px) {
     .container{
       width: 830px;
     }
   }
-  /* Only Tablet devices (SM) */
+  /* Tablet devices */
   @media only screen and (min-width: 769px) and (max-width: 991px) {
     .container{
       width: 100%;
     }
   }
-  /* Only Mobile Lanscape (XS) */
+  /* Mobile Lanscape */
   @media only screen and (min-width: 576px) and (max-width: 768px) {
     .container{
       width: 100%;
     }
   }
-  /* Only Mobile Portrait (XS) */
+  /* Mobile Portrait */
   @media only screen and (max-width: 575px) {
     .container{
       width: 100%;
@@ -213,6 +277,107 @@ To compile:
     }
     .navbar{
       margin-bottom: 0px;
+    }
+  }
+}
+
+.template-2-regions{
+  .navbar{
+    margin-bottom: 0px;
+  }
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .body-container{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    .menubar{
+      display: block;
+      min-width: 220px;
+      background: @color-wmk-white;
+      height: 100vh;
+      position: sticky;
+      overflow: auto;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      overflow-y: auto;
+      padding-top: 40px;
+      box-shadow: 0px 1px 3px rgba(0, 55, 136, 0.12);
+      h3{
+        margin-left: 30px;
+      }
+      .nav-pills{
+        li{
+          a{
+            padding: 7px 30px;
+            border-radius: 0px;
+          }
+        }
+        li.active{
+          a{
+            background: none;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .content{
+      display: block;
+      padding-top: 40px;
+      margin: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    @media only screen and (min-width: 1480px) {
+      .container{
+        width: 1240px;
+      }
+    }
+    @media only screen and (min-width: 1280px) and (max-width: 1479px) {
+      .container{
+        width: 1020px;
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1279px) {
+      .container{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .menubar{
+        display: none;
+      }
+    }
+    @media only screen and (min-width: 575px) and (max-width: 767px) {
+      .container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .menubar{
+        display: none;
+      }
+    }
+    @media only screen and (max-width: 575px) {
+      .container{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .menubar{
+        display: none;
+      }
     }
   }
 }
