@@ -61,7 +61,7 @@ To compile:
 
   .template-section{
     display: block;
-    padding-bottom: 60px;
+    padding: 0px 0px 50px 0px;
   }
 
   body{
@@ -193,10 +193,26 @@ To compile:
     box-shadow: 0px 2px 4px rgba(0, 38, 97, 0.15);
   }
 
+  .dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+
+
 
 form{
+
   input[type=text] {
-    width: 143px;
+    width: 100%;
     height: 40px;
     padding-left: 16px;
     padding-right: 16px;
@@ -209,12 +225,100 @@ form{
     box-sizing: border-box;
     border-radius: 4px;
   }
+
   label{
     font-family: @font-wmk-primary;
     color: @color-wmk-grey-3;
     display: block;
   }
+
+  .input-left-icon{
+      position:relative;
+      width: 100%;
+      height: 40px;
+      background: none;
+      direction: initial;
+      input[type=text] {
+        width: 100%;
+        height: 40px;
+        padding-left: 40px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 9px;
+        font-family: @font-wmk-primary;
+        color: @color-wmk-grey-3;
+        border: 1px solid @color-wmk-grey-1;
+        background: @color-wmk-white;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+  }
+
+  .input-right-icon{
+      position:relative;
+      width: 100%;
+      height: 40px;
+      background: none;
+      direction: initial;
+      input[type=text] {
+        width: 100%;
+        height: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 9px;
+        font-family: @font-wmk-primary;
+        color: @color-wmk-grey-3;
+        border: 1px solid @color-wmk-grey-1;
+        background: @color-wmk-white;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+  }
+
+  .input-disable{
+      position:relative;
+      width: 100%;
+      height: 40px;
+      background: none;
+      direction: initial;
+      input[type=text] {
+        width: 100%;
+        height: 40px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 9px;
+        font-family: @font-wmk-primary;
+        color: @color-wmk-grey-3;
+        border: 1px solid @color-wmk-grey-1;
+        background: @color-wmk-grey-1;
+        box-sizing: border-box;
+        border-radius: 4px;
+      }
+  }
+
+
+  .input-icon-left {
+      position:absolute;
+      top: 11px;
+      left: 12px;
+      width:24px;
+      height:24px;
+  }
+
+  .input-icon-right {
+      position:absolute;
+      top: 11px;
+      right: 12px;
+      width:24px;
+      height:24px;
+  }
+
 }
+
+
+
 
 
     .panel-default{
@@ -249,6 +353,24 @@ form{
       /* Shadow 3 */
       box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.1), 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
     }
+
+
+
+    .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: @font-wmk-primary;
+    font-size: 14px;
+    color: @color-wmk-theme-primary;
+    text-align: center;
+    border:1px solid @color-wmk-theme-primary;
+    background-color: @color-wmk-white;
+    border-radius: 12px;
+}
 
 }
 
