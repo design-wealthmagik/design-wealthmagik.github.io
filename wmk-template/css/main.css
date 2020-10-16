@@ -8002,6 +8002,9 @@ button.close {
   border-radius: 0px;
   height: 70px;
 }
+.style-wmk .navbar .navbar-brand {
+  padding-top: 11px;
+}
 .style-wmk .banner {
   padding-top: 100px;
   padding-bottom: 40px;
@@ -9104,4 +9107,46 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   background: none;
   border: 0px;
   /* Font,Background,Border */
+}
+.template-1-region {
+  /*---Responsive (Bootstrap Standard)---*/
+  /* Only Desktop and Large Desktop (LG) */
+  /* Only Small Desktop devices (MD) */
+  /* Only Tablet devices (SM) */
+  /* Only Mobile Lanscape (XS) */
+  /* Only Mobile Portrait (XS) */
+}
+@media only screen and (min-width: 1280px) {
+  .template-1-region .container {
+    width: 1230px;
+  }
+}
+@media only screen and (min-width: 922px) and (max-width: 1279px) {
+  .template-1-region .container {
+    width: 830px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .template-1-region .container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .template-1-region .container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .template-1-region .container {
+    width: 100%;
+  }
+  .template-1-region .col-mobile-full {
+    padding: 0px;
+  }
+  .template-1-region .col-mobile-full .panel {
+    border-radius: 0px;
+  }
+  .template-1-region .navbar {
+    margin-bottom: 0px;
+  }
 }

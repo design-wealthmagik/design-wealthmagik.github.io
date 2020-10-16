@@ -34,6 +34,9 @@ To compile:
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     border-radius: 0px;
     height: 70px;
+    .navbar-brand{
+      padding-top: 11px;
+    }
   }
 
   .banner{
@@ -168,8 +171,48 @@ To compile:
     /* Font,Background,Border */
   }
 
+}
 
 
-
-
+.template-1-region{
+  /*---Responsive (Bootstrap Standard)---*/
+  /* Only Desktop and Large Desktop (LG) */
+  @media only screen and (min-width: 1280px) {
+    .container{
+      width: 1230px;
+    }
+  }
+  /* Only Small Desktop devices (MD) */
+  @media only screen and (min-width: 922px) and (max-width: 1279px) {
+    .container{
+      width: 830px;
+    }
+  }
+  /* Only Tablet devices (SM) */
+  @media only screen and (min-width: 769px) and (max-width: 991px) {
+    .container{
+      width: 100%;
+    }
+  }
+  /* Only Mobile Lanscape (XS) */
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .container{
+      width: 100%;
+    }
+  }
+  /* Only Mobile Portrait (XS) */
+  @media only screen and (max-width: 575px) {
+    .container{
+      width: 100%;
+    }
+    .col-mobile-full{
+      padding: 0px;
+      .panel{
+        border-radius: 0px;
+      }
+    }
+    .navbar{
+      margin-bottom: 0px;
+    }
+  }
 }
