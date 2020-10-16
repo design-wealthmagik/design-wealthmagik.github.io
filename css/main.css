@@ -7557,6 +7557,7 @@ a:focus {
 .typo-table {
   height: auto;
   padding: 30px;
+  margin-top: 15px;
 }
 .typo-table tbody {
   padding: 50px;
@@ -7584,11 +7585,11 @@ a:focus {
   width: 200px;
 }
 .typo-table tbody tr .typo-detail {
-  padding-top: 10px;
+  padding-top: 20px;
   width: 250px;
 }
 .typo-table tbody tr .typo-desc {
-  padding-top: 10px;
+  padding-top: 20px;
   line-height: 155%;
 }
 .typo-table tbody tr .border-bottom {
