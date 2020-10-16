@@ -144,6 +144,12 @@ To compile:
     /* Font,Background,Border */
   }
 
+  .btn-toggle {
+    &:extend(.btn all);
+    .button-variant(@color-wmk-black, @color-wmk-white, @color-wmk-grey-1);
+    /* Font,Background,Border */
+  }
+
   .btn-ghost {
     &:extend(.btn all);
     background: none;
