@@ -113,46 +113,54 @@
           <section id="text-input" class="template-section">
             <h1>Text Input</h1>
             <hr>
-            <div class="col-xs-3">
-              <form class="form-display">
-                <label>Label</label>
-                <div class="">
-                  <input type="text" placeholder="Pretext">
-                </div>
-              </form>
+            <div class="row">
+              <div class="col-xs-3">
+                <form class="form-display">
+                  <label>Label</label>
+                  <div class="">
+                    <input type="text" placeholder="Pretext">
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-xs-3">
+                <form class="form-display">
+                  <label>Label</label>
+                  <div class="input-left-icon">
+                    <img src="../images/wmk/icon/icon-search.svg" class="input-icon-left">
+                    <input type="text" placeholder="Pretext">
+                  </div>
+
+                </form>
+              </div>
+
+              <div class="col-xs-3">
+                <form class="form-display">
+                  <label>Label</label>
+                  <div class="row">
+                     <!-- <div class='col-sm-6'>
+                        <div class="form-group">
+                           <div class='input-group date' id='datetimepicker2'>
+                              <input type='text' class="form-control" />
+                              <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                           </div>
+                        </div>
+                     </div> -->
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-xs-3">
+                <form class="form-display">
+                  <label>Label</label>
+                  <div class="input-disable">
+                    <input type="text" placeholder="Pretext">
+                  </div>
+                </form>
+              </div>
             </div>
-
-            <div class="col-xs-3">
-              <form class="form-display">
-                <label>Label</label>
-                <div class="input-left-icon">
-                  <img src="../images/wmk/icon/icon-search.svg" class="input-icon-left">
-                  <input type="text" placeholder="Pretext">
-                </div>
-              </form>
-            </div>
-
-            <div class="col-xs-3">
-              <form class="form-display">
-                <label>Label</label>
-                <div class="input-right-icon">
-                  <img src="../images/wmk/icon/icon-field-calendar.svg" class="input-icon-right">
-                  <input type="text" placeholder="Pretext">
-                </div>
-              </form>
-            </div>
-
-            <div class="col-xs-3">
-              <form class="form-display">
-                <label>Label</label>
-                <div class="input-disable">
-                  <input type="text" placeholder="Pretext">
-                </div>
-              </form>
-            </div>
-
-
-
 
           </section>
 
@@ -219,7 +227,55 @@
           <section id="modal" class="template-section">
             <h1>Modals</h1>
             <hr>
+            <div class="row">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Demo modal Alert
+              </button>
 
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="exampleModalLabel">Dialog Header</h2>
+                    </div>
+                    <div class="modal-body">
+                      Support body text
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Action 2</button>
+                      <button type="button" class="btn btn-primary">Action 1</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+                Demo modal Fields
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog-field" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title" id="exampleModalLabel">Dialog Header</h2>
+                    </div>
+                    <div class="modal-body">
+                      Support body text
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Action 2</button>
+                      <button type="button" class="btn btn-primary">Action 1</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
 
           </div
