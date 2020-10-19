@@ -134,29 +134,12 @@
                 </form>
               </div>
 
-              <div class="col-xs-3">
-                <form class="form-display">
-                  <label>Label</label>
-                  <div class="row">
-                     <!-- <div class='col-sm-6'>
-                        <div class="form-group">
-                           <div class='input-group date' id='datetimepicker2'>
-                              <input type='text' class="form-control" />
-                              <span class="input-group-addon">
-                              <span class="glyphicon glyphicon-calendar"></span>
-                              </span>
-                           </div>
-                        </div>
-                     </div> -->
-                  </div>
-                </form>
-              </div>
 
               <div class="col-xs-3">
                 <form class="form-display">
                   <label>Label</label>
-                  <div class="input-disable">
-                    <input type="text" placeholder="Pretext">
+                  <div class="input-disable" >
+                    <input type="text" placeholder="Pretext" disabled>
                   </div>
                 </form>
               </div>
@@ -168,16 +151,51 @@
           <section class="dropdown-selection" class="template-section">
             <h1>Dropdown and Selection</h1>
             <hr>
-            <div class="dropdown">
-              <button class="btn btn-secondary-black dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <button class="dropdown-item" type="button">Action</button>
-                <button class="dropdown-item" type="button">Another action</button>
-                <button class="dropdown-item" type="button">Something else here</button>
+            <div class="row">
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary-black dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="dropdown-text">Dropdown</span>
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
               </div>
             </div>
+
+            <div class="row">
+              <!-- Default checkbox -->
+              <div class="checkbox">
+                <label>
+                 <input type="checkbox" value="">
+                 <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                 Option one
+                 </label>
+              </div>
+
+              <!-- Checked checkbox -->
+              <div class="checkbox">
+                <label>
+                 <input type="checkbox" value="" checked>
+                 <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                 Option two is checked by default
+                 </label>
+              </div>
+
+              <!-- Disabled checkbox -->
+              <div class="checkbox disabled">
+                <label>
+                 <input type="checkbox" value="" disabled>
+                 <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                 Option three is disabled
+                 </label>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
           </section>
 
           <section id="table" class="template-section">
@@ -242,12 +260,6 @@
 
           </section>
 
-          <section id="tab" class="template-section">
-            <h1>Tabs</h1>
-            <hr>
-
-          </section>
-
 
 
           <section id="card" class="template-section">
@@ -272,7 +284,15 @@
           <section id="tag" class="template-section">
             <h1>Tags</h1>
             <hr>
-            <span class="badge badge-primary">Primary</span>
+            <span class="badge-border">Tag A</span>
+            <span class="badge-solid color color-chart-yellow">Tag B</span>
+            <span class="badge-solid color color-chart-red">Tag C</span>
+            <span class="badge-solid color color-chart-purple">Tag D</span>
+            <span class="badge-solid color color-chart-orange">Tag E</span>
+            <span class="badge-solid color color-chart-turquoise">Tag F</span>
+            <span class="badge-solid color color-chart-pink">Tag G</span>
+            <span class="badge-solid color color-status-green">Tag H</span>
+            <span class="badge-solid color color-status-red">Tag J</span>
           </section>
 
 
@@ -280,39 +300,9 @@
             <h1>Modals</h1>
             <hr>
             <div class="row">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Demo modal Alert
-              </button>
-
               <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="">
                 <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h2 class="modal-title" id="exampleModalLabel">Dialog Header</h2>
-                    </div>
-                    <div class="modal-body">
-                      Support body text
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Action 2</button>
-                      <button type="button" class="btn btn-primary">Action 1</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
-                Demo modal Fields
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog-field" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h2 class="modal-title" id="exampleModalLabel">Dialog Header</h2>
