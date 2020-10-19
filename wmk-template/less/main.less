@@ -67,6 +67,7 @@ To compile:
   body{
     font-family: @font-wmk-primary;
     font-size: 16px;
+
   }
   h1{
     font-family: 'ThaiSansNeue';
@@ -355,12 +356,53 @@ form{
     }
 
 
-    .nav-tabs{
-      li{
-        background: @color-wmk-theme-inactive;
-        border-radius: 6px 6px 0px 0px;
-      }
+    table{
+      border-color: none;
+        th{
+          padding: 14px 30px 15px 30px !important;
+          background: transparent;
+          color: @color-wmk-grey-3;
+          font-family: @font-wmk-primary;
+          .glyphicon {
+            position: relative;
+            top: 1px;
+            color: @color-wmk-grey-3;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: normal;
+          }
+        }
+        td{
+          padding: 14px 30px 15px 30px !important;
+          background: @color-wmk-white;
+          font-family: @font-wmk-primary;
+          color: @color-wmk-black;
+          box-shadow: 0px -1px 0px #E2E5EB, 0px 1px 0px #E2E5EB;
+          .color-box{
+            height: 15px;
+            width: 15px;
+            border-radius: 2px;
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+          }
+          .tdetail-item{
+            padding-left: 10px;
+            display: inline-block;
+          }
+          .chg-up{
+            color: @color-status-green !important;
+          }
+          .chg-down{
+            color: @color-status-red;
+          }
+        }
+
     }
+
+
+
 
 
 

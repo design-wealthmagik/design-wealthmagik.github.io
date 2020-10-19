@@ -7981,7 +7981,7 @@ button.close {
   background: #30C9EB;
 }
 .color-chart-pink {
-  background: #D449AE;
+  background: #FA5C89;
 }
 @font-face {
   font-family: 'ThaiSansNeue';
@@ -9044,9 +9044,48 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   /* Shadow 3 */
   box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.1), 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
 }
-.style-wmk .nav-tabs li {
-  background: #3E97CA;
-  border-radius: 6px 6px 0px 0px;
+.style-wmk table {
+  border-color: none;
+}
+.style-wmk table th {
+  padding: 14px 30px 15px 30px !important;
+  background: transparent;
+  color: #758093;
+  font-family: 'Sarabun', sans-serif;
+}
+.style-wmk table th .glyphicon {
+  position: relative;
+  top: 1px;
+  color: #758093;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+}
+.style-wmk table td {
+  padding: 14px 30px 15px 30px !important;
+  background: #FFFFFF;
+  font-family: 'Sarabun', sans-serif;
+  color: #2b3549;
+  box-shadow: 0px -1px 0px #E2E5EB, 0px 1px 0px #E2E5EB;
+}
+.style-wmk table td .color-box {
+  height: 15px;
+  width: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.style-wmk table td .tdetail-item {
+  padding-left: 10px;
+  display: inline-block;
+}
+.style-wmk table td .chg-up {
+  color: #00BC91 !important;
+}
+.style-wmk table td .chg-down {
+  color: #EF5350;
 }
 .style-wmk .badge {
   display: inline-block;
