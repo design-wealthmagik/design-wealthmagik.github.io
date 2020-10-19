@@ -14,7 +14,7 @@
     <meta property="og:image"              content=""/>
 <!-- Facebook OG ENDS -->
 
-    <title>Page Title</title>
+    <title>WealthMagik Template</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="wmk/template/css/main.css">
     <link rel="stylesheet" href="css/main.css">
@@ -50,7 +50,7 @@
         <div class="col-sm-12 col-mobile-full">
           <div class="panel panel-default">
             <div class="panel-body">
-              <h1>ตัวอย่าง Template 1 Region</h1>
+              <h1>ตัวอย่าง Component</h1>
               <p>Template เพื่อแสดงตัวอย่างของต่างๆ ที่ถูกใช้อยู่ใน design system นี้ เพื่อใช้เป็นจุดเริ่มในการปรับแต่งและสร้างหน้าใหม</p>
             </div>
           </div>
@@ -148,67 +148,17 @@
           </section>
 
 
-          <section class="dropdown-selection" class="template-section">
-            <h1>Dropdown and Selection</h1>
-            <hr>
-            <div class="row">
-              <div class="btn-group">
-                <button type="button" class="btn btn-secondary-black dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="dropdown-text">Dropdown</span>
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="row">
-              <!-- Default checkbox -->
-              <div class="checkbox">
-                <label>
-                 <input type="checkbox" value="">
-                 <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                 Option one
-                 </label>
-              </div>
-
-              <!-- Checked checkbox -->
-              <div class="checkbox">
-                <label>
-                 <input type="checkbox" value="" checked>
-                 <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                 Option two is checked by default
-                 </label>
-              </div>
-
-              <!-- Disabled checkbox -->
-              <div class="checkbox disabled">
-                <label>
-                 <input type="checkbox" value="" disabled>
-                 <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                 Option three is disabled
-                 </label>
-              </div>
-            </div>
-            <br>
-            <br>
-            <br>
-          </section>
-
           <section id="table" class="template-section">
-            <h1>Tables</h1>
+            <h1>Table</h1>
             <hr>
             <div class="row">
               <div class="col-xs-6">
                 <table class="table table-hover">
                   <thead>
-                    <tr align='right'>
-                      <th scope="col">Items <i class="glyphicon glyphicon-triangle-bottom"></th>
-                      <th scope="col">Inventory<i class="glyphicon glyphicon-triangle-bottom"></th>
-                      <th scope="col">%Change<i class="glyphicon glyphicon-triangle-bottom"></th>
+                    <tr>
+                      <th scope="col">Items <i class="glyphicon glyphicon-triangle-bottom active"></th>
+                      <th scope="col" class="cell-right">Inventory<i class="glyphicon glyphicon-triangle-bottom"></th>
+                      <th scope="col" class="cell-right">%Change<i class="glyphicon glyphicon-triangle-bottom"></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -222,8 +172,8 @@
                           </div>
                         </div>
                       </th>
-                      <td align='right'>3,000</td>
-                      <td align='right'><span class="chg-down">-4.43%</span></td>
+                      <td class="cell-right">3,000</td>
+                      <td class="cell-right"><span class="chg-down">-4.43%</span></td>
                     </tr>
 
                     <tr>
@@ -232,12 +182,12 @@
                           <div class="color-box color-chart-pink">
                           </div>
                           <div class="tdetail-item">
-                              <span>Shoes</span>
+                              <span>Bee</span>
                           </div>
                         </div>
                       </th>
-                      <td align='right' class="number">200</td>
-                      <td align='right'><span class="chg-up">0.37%</span></td>
+                      <td class="cell-right" class="number">200</td>
+                      <td class="cell-right"><span class="chg-up">0.37%</span></td>
                     </tr>
                     <tr>
                       <td scope="row">
@@ -249,8 +199,8 @@
                           </div>
                         </div>
                       </th>
-                      <td align='right'>1,530</td>
-                      <td align='right'><span class="chg-down">-0.77%</span></td>
+                      <td class="cell-right">1,530</td>
+                      <td class="cell-right"><span class="chg-down">-0.77%</span></td>
                     </tr>
                   </tbody>
                 </table>
@@ -265,17 +215,21 @@
           <section id="card" class="template-section">
             <h1>Cards</h1>
             <hr>
-            <div class="col-sm-4">
-              <div class="panel panel-default">
-                <div class="panel-body">
-
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <h3>Normal Card</h3>
+                    <p>Hello World.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="panel panel-popup">
-                <div class="panel-body">
-
+              <div class="col-sm-4">
+                <div class="panel panel-default panel-popup">
+                  <div class="panel-body">
+                    <h3>Popup Card</h3>
+                    <p>Hello World.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -299,9 +253,7 @@
           <section id="modal" class="template-section">
             <h1>Modals</h1>
             <hr>
-            <div class="row">
               <!-- Modal -->
-              <div class="">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -316,8 +268,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
+
           </section>
 
         </div>
