@@ -415,7 +415,9 @@ form{
 
   /*---END WMK Style---*/
 }
-
+.only-screen{
+  display: none;
+}
 .template-1-region{
   /*---Responsive (Bootstrap Standard)---*/
   /* Desktop and Large Desktop */
@@ -423,23 +425,35 @@ form{
     .container{
       width: 1230px;
     }
+    .only-desktop{
+      display: block;
+    }
   }
   /* Small Desktop */
   @media only screen and (min-width: 922px) and (max-width: 1279px) {
     .container{
       width: 830px;
     }
+    .only-small-desktop{
+      display: block;
+    }
   }
   /* Tablet devices */
-  @media only screen and (min-width: 769px) and (max-width: 991px) {
+  @media only screen and (min-width: 769px) and (max-width: 921px) {
     .container{
       width: 100%;
     }
+    .only-tablet{
+      display: block;
+    }
   }
-  /* Mobile Lanscape */
+  /* Mobile landscape */
   @media only screen and (min-width: 576px) and (max-width: 768px) {
     .container{
       width: 100%;
+    }
+    .only-mobile-landscape{
+      display: block;
     }
   }
   /* Mobile Portrait */
@@ -455,6 +469,9 @@ form{
     }
     .navbar{
       margin-bottom: 0px;
+    }
+    .only-mobile-portrait{
+      display: block;
     }
   }
 }
@@ -521,10 +538,16 @@ form{
       .container{
         width: 1240px;
       }
+      .only-large-desktop{
+        display: block;
+      }
     }
     @media only screen and (min-width: 1280px) and (max-width: 1479px) {
       .container{
         width: 1020px;
+      }
+      .only-desktop{
+        display: block;
       }
     }
     @media only screen and (min-width: 768px) and (max-width: 1279px) {
@@ -536,6 +559,9 @@ form{
       .menubar{
         display: none;
       }
+      .only-small-desktop{
+        display: block;
+      }
     }
     @media only screen and (min-width: 575px) and (max-width: 767px) {
       .container{
@@ -546,6 +572,9 @@ form{
       .menubar{
         display: none;
       }
+      .only-mobile-landscape{
+        display: block;
+      }
     }
     @media only screen and (max-width: 575px) {
       .container{
@@ -555,6 +584,9 @@ form{
       }
       .menubar{
         display: none;
+      }
+      .only-mobile-portrait{
+        display: block;
       }
     }
   }
