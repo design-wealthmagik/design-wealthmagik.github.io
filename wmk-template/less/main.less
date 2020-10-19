@@ -267,6 +267,7 @@ form{
 
   label{
     font-family: @font-wmk-primary;
+    font-weight: 400;
     color: @color-wmk-grey-3;
     display: block;
   }
@@ -386,6 +387,7 @@ form{
 
     .panel-popup{
       /* Shadow 3 */
+
       box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.1), 0px 2px 5px -1px rgba(0, 0, 0, 0.2);
     }
 
@@ -476,7 +478,7 @@ form{
 
   .modal-dialog {
     width: 600px;
-    margin: 0px;
+    margin: 1.75rem auto;
   }
 
 
@@ -486,16 +488,19 @@ form{
     border-radius: 10px;
     border: none;
     .modal-header{
-      padding: 16px 24px 16px;
+      padding: 20px 30px 30px;
       border-bottom: none;
     }
     .modal-body{
-      padding: 12px 24px 16px;
+      padding: 0px 30px 30px;
       border-bottom: none;
     }
     .modal-footer{
-      padding: 12px 24px 16px;
+      padding: 30px 30px 30px;
       border-top: none;
+      button{
+        margin-left: 15px;
+      }
     }
   }
 

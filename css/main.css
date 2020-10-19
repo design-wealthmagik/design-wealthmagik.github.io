@@ -7453,9 +7453,6 @@ a:focus {
   border-radius: 4px 4px 4px 4px;
   box-shadow: none;
 }
-#example .demo .btn {
-  margin-right: 5px;
-}
 #example .demo:after {
   position: absolute;
   top: 15px;
