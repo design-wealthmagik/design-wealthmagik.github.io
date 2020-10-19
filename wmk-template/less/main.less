@@ -138,14 +138,16 @@ body.style-wmk{
     /* Font,Background,Border */
   }
 
-  .btn-secondary-black {
+  .btn-tertiary {
     &:extend(.btn all);
     .button-variant(@color-wmk-black, @color-wmk-white, @color-wmk-grey-1);
     /* Font,Background,Border */
   }
-  .btn-tertiary {
+  .btn-ghost {
     &:extend(.btn all);
-    .button-variant(@color-wmk-theme-primary, @color-wmk-white, @color-wmk-grey-1);
+    background: none;
+    border: 0px;
+    color: @color-wmk-theme-primary;
     /* Font,Background,Border */
   }
 
@@ -169,12 +171,6 @@ body.style-wmk{
     box-shadow: none !important;
   }
 
-  .btn-ghost {
-    &:extend(.btn all);
-    background: none;
-    border: 0px;
-    /* Font,Background,Border */
-  }
 
   .btn-icon{
     width:40px;
