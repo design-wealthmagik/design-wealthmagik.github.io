@@ -142,6 +142,10 @@ body.style-wmk{
     .button-variant(@color-wmk-white, @color-wmk-theme-600, @color-wmk-theme-600);
     /* Font,Background,Border */
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px 0 rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  .btn-primary-raised:hover{
+    box-shadow: none;
   }
   .btn-secondary {
     &:extend(.btn all);
@@ -201,6 +205,11 @@ body.style-wmk{
     border:none;
     outline:none;
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  .btn-fab:hover{
+    background: @color-wmk-theme-600;
+    box-shadow: none;
   }
 
   .btn-next{

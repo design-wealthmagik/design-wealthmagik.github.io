@@ -7350,6 +7350,7 @@ a:focus {
 .article .gallery .gallery-item {
   margin-top: 30px;
   border: 1px solid #E0E0E0;
+  transition: box-shadow 0.3s ease-in-out;
 }
 .article .gallery .gallery-item h3 {
   color: #2B3549;
@@ -7452,6 +7453,9 @@ a:focus {
   border: 1px solid #E0E0E0;
   border-radius: 4px 4px 4px 4px;
   box-shadow: none;
+}
+#example .demo button {
+  margin-right: 10px;
 }
 #example .demo:after {
   position: absolute;

@@ -8111,6 +8111,7 @@ fieldset[disabled] .style-wmk .btn-primary.active {
   border-color: #039BE5;
   /* Font,Background,Border */
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px 0 rgba(0, 0, 0, 0.02);
+  transition: box-shadow 0.2s ease-in-out;
 }
 .style-wmk .btn-primary-raised:focus,
 .style-wmk .btn-primary-raised.focus {
@@ -8204,6 +8205,9 @@ fieldset[disabled] .style-wmk .btn-primary-raised.active {
 .style-wmk .btn-primary-raised .badge {
   color: #039BE5;
   background-color: #FFFFFF;
+}
+.style-wmk .btn-primary-raised:hover {
+  box-shadow: none;
 }
 .style-wmk .btn-secondary {
   color: #03a9f4;
@@ -8725,6 +8729,11 @@ fieldset[disabled] .style-wmk .btn-toggle.active.active {
   border: none;
   outline: none;
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+  transition: box-shadow 0.2s ease-in-out;
+}
+.style-wmk .btn-fab:hover {
+  background: #039BE5;
+  box-shadow: none;
 }
 .style-wmk .btn-next {
   width: 40px;
