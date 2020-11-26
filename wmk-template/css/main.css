@@ -7722,35 +7722,35 @@ button.close {
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Sarabun';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Sarabun Regular'), local('Sarabun-Regular'), url(https://fonts.gstatic.com/s/sarabun/v8/DtVjJx26TKEr37c9WBI.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/sarabun/v8/DtVjJx26TKEr37c9WBI.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Sarabun';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Sarabun SemiBold'), local('Sarabun-SemiBold'), url(https://fonts.gstatic.com/s/sarabun/v8/DtVmJx26TKEr37c9YMptulw.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/sarabun/v8/DtVmJx26TKEr37c9YMptulw.ttf) format('truetype');
 }
 .color-wmk-theme-50 {
   background: #E1F5FE;
@@ -7822,7 +7822,7 @@ button.close {
   background: linear-gradient(0deg, #FFFFFF 0%, #E1F5FE 100%);
 }
 .color-gadient-primary-blue {
-  background: linear-gradient(0deg, #039be5 0%, #4bbdf4 100%);
+  background: linear-gradient(0deg, #039be5 0%, #4BBDF4 100%);
 }
 .color-gadient-green {
   background: linear-gradient(60deg, #65C4AE 0%, #5294C8 100%);
@@ -7868,6 +7868,9 @@ button.close {
 }
 .color-gadient-purple-2 {
   background: #6746B8;
+}
+.color-gadient-blue-1 {
+  background: #4BBDF4;
 }
 .color-chart-blue {
   background: #3E98F5;
